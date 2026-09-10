@@ -22,7 +22,7 @@
         "type": "recon"
       }
     ],
-    "image": "/agents/sova.svg"
+    "image": "/agents/sova/portrait.png"
   },
   {
     "id": "fade",
@@ -47,7 +47,7 @@
         "type": "recon"
       }
     ],
-    "image": "/agents/fade.svg"
+    "image": "/agents/fade/portrait.png"
   },
   {
     "id": "gekko",
@@ -72,7 +72,7 @@
         "type": "other"
       }
     ],
-    "image": "/agents/gekko.svg"
+    "image": "/agents/gekko/portrait.png"
   },
   {
     "id": "kayo",
@@ -97,7 +97,7 @@
         "type": "molly"
       }
     ],
-    "image": "/agents/kayo.svg"
+    "image": "/agents/kayo/portrait.png"
   },
   {
     "id": "breach",
@@ -122,7 +122,7 @@
         "type": "molly"
       }
     ],
-    "image": "/agents/breach.svg"
+    "image": "/agents/breach/portrait.png"
   },
   {
     "id": "skye",
@@ -147,7 +147,7 @@
         "type": "recon"
       }
     ],
-    "image": "/agents/skye.svg"
+    "image": "/agents/skye/portrait.png"
   },
   {
     "id": "tejo",
@@ -172,7 +172,7 @@
         "type": "other"
       }
     ],
-    "image": "/agents/tejo.svg"
+    "image": "/agents/tejo/portrait.png"
   },
   {
     "id": "viper",
@@ -197,7 +197,7 @@
         "type": "wall"
       }
     ],
-    "image": "/agents/viper.svg"
+    "image": "/agents/viper/portrait.png"
   },
   {
     "id": "omen",
@@ -222,7 +222,7 @@
         "type": "other"
       }
     ],
-    "image": "/agents/omen.svg"
+    "image": "/agents/omen/portrait.png"
   },
   {
     "id": "brimstone",
@@ -247,7 +247,7 @@
         "type": "other"
       }
     ],
-    "image": "/agents/brimstone.svg"
+    "image": "/agents/brimstone/portrait.png"
   },
   {
     "id": "astra",
@@ -272,7 +272,7 @@
         "type": "flash"
       }
     ],
-    "image": "/agents/astra.svg"
+    "image": "/agents/astra/portrait.png"
   },
   {
     "id": "harbor",
@@ -297,7 +297,7 @@
         "type": "wall"
       }
     ],
-    "image": "/agents/harbor.svg"
+    "image": "/agents/harbor/portrait.png"
   },
   {
     "id": "clove",
@@ -322,7 +322,7 @@
         "type": "smoke"
       }
     ],
-    "image": "/agents/clove.svg"
+    "image": "/agents/clove/portrait.png"
   },
   {
     "id": "killjoy",
@@ -347,7 +347,7 @@
         "type": "trap"
       }
     ],
-    "image": "/agents/killjoy.svg"
+    "image": "/agents/killjoy/portrait.png"
   },
   {
     "id": "cypher",
@@ -372,7 +372,7 @@
         "type": "trap"
       }
     ],
-    "image": "/agents/cypher.svg"
+    "image": "/agents/cypher/portrait.png"
   },
   {
     "id": "chamber",
@@ -397,7 +397,7 @@
         "type": "other"
       }
     ],
-    "image": "/agents/chamber.svg"
+    "image": "/agents/chamber/portrait.png"
   },
   {
     "id": "sage",
@@ -422,7 +422,7 @@
         "type": "other"
       }
     ],
-    "image": "/agents/sage.svg"
+    "image": "/agents/sage/portrait.png"
   },
   {
     "id": "deadlock",
@@ -447,7 +447,7 @@
         "type": "trap"
       }
     ],
-    "image": "/agents/deadlock.svg"
+    "image": "/agents/deadlock/portrait.png"
   },
   {
     "id": "jett",
@@ -472,7 +472,7 @@
         "type": "smoke"
       }
     ],
-    "image": "/agents/jett.svg"
+    "image": "/agents/jett/portrait.png"
   },
   {
     "id": "raze",
@@ -497,7 +497,7 @@
         "type": "recon"
       }
     ],
-    "image": "/agents/raze.svg"
+    "image": "/agents/raze/portrait.png"
   },
   {
     "id": "neon",
@@ -522,7 +522,7 @@
         "type": "flash"
       }
     ],
-    "image": "/agents/neon.svg"
+    "image": "/agents/neon/portrait.png"
   },
   {
     "id": "yoru",
@@ -547,7 +547,7 @@
         "type": "recon"
       }
     ],
-    "image": "/agents/yoru.svg"
+    "image": "/agents/yoru/portrait.png"
   },
   {
     "id": "phoenix",
@@ -572,7 +572,7 @@
         "type": "molly"
       }
     ],
-    "image": "/agents/phoenix.svg"
+    "image": "/agents/phoenix/portrait.png"
   },
   {
     "id": "reyna",
@@ -597,7 +597,7 @@
         "type": "other"
       }
     ],
-    "image": "/agents/reyna.svg"
+    "image": "/agents/reyna/portrait.png"
   },
   {
     "id": "iso",
@@ -622,7 +622,7 @@
         "type": "wall"
       }
     ],
-    "image": "/agents/iso.svg"
+    "image": "/agents/iso/portrait.png"
   },
   {
     "id": "waylay",
@@ -647,6 +647,6 @@
         "type": "other"
       }
     ],
-    "image": "/agents/waylay.svg"
+    "image": "/agents/waylay/portrait.png"
   }
 ]

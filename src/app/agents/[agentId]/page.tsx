@@ -34,22 +34,27 @@ export default async function AgentDetailPage({ params }: Props) {
   return (
     <div className="space-y-8">
       <div className="glass-card flex flex-col items-start gap-6 p-6 sm:flex-row">
-        <div
-          className="relative h-40 w-40 shrink-0 overflow-hidden border border-val-border bg-val-elevated/50"
-          style={{ borderTopColor: agent.color, borderTopWidth: 3 }}
-        >
+        <div className="shrink-0">
           <div
-            className="pointer-events-none absolute inset-0 opacity-40"
-            style={{
-              background: `radial-gradient(circle at 50% 40%, ${agent.color}33, transparent 65%)`,
-            }}
-          />
-          <SmartImage
-            src={agent.image}
-            alt={agent.name}
-            fill
-            className="object-contain p-2"
-          />
+            className="relative h-48 w-40 overflow-hidden border border-val-border bg-val-elevated/50 sm:h-56 sm:w-44"
+            style={{ borderTopColor: agent.color, borderTopWidth: 3 }}
+          >
+            <div
+              className="pointer-events-none absolute inset-0 z-[1] opacity-30"
+              style={{
+                background: `radial-gradient(circle at 50% 40%, ${agent.color}33, transparent 65%)`,
+              }}
+            />
+            <SmartImage
+              src={agent.image}
+              alt={agent.name}
+              fill
+              className="object-cover object-top"
+              sizes="176px"
+              priority
+            />
+          </div>
+          <p className="mt-2 text-xs text-val-muted">图片来源：无畏契约官网</p>
         </div>
         <div>
           <p className="text-sm text-val-muted">

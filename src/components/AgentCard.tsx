@@ -15,12 +15,12 @@ export function AgentCard({ agent }: { agent: AgentInfo }) {
           background: `radial-gradient(circle at 50% 20%, ${agent.color}22, transparent 60%)`,
         }}
       />
-      <div className="relative mx-auto mt-5 h-28 w-28">
+      <div className="relative mx-auto mt-5 h-28 w-28 overflow-hidden rounded-sm border border-val-border/60 bg-val-elevated/40">
         <SmartImage
           src={agent.image}
           alt={agent.name}
           fill
-          className="object-contain drop-shadow-[0_0_12px_rgba(255,70,85,0.15)] transition duration-300 group-hover:scale-105"
+          className="object-cover object-top transition duration-300 group-hover:scale-105"
           sizes="112px"
         />
       </div>
