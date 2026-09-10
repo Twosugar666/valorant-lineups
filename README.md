@@ -130,8 +130,8 @@ src/
 | `difficulty` | `"easy"` \| `"medium"` \| `"hard"` | 难度 |
 | `tags` | string[] | 标签 |
 | `description` | string | 简述 |
-| `steps` | `{ order, text, tip? }[]` | 步骤 |
-| `images` | object | `position` / `crosshair` / `landing` 图片路径 |
+| `steps` | `{ order, text, tip?, image? }[]` | 步骤；`image` 为每步示意图路径 |
+| `images` | object | `position` / `crosshair` / `landing` 总览图（图库兼容） |
 | `featured` | boolean? | 是否首页精选 |
 
 ## 如何新增一条点位
@@ -165,7 +165,7 @@ src/
   "tags": ["默认", "开局"],
   "description": "……",
   "steps": [
-    { "order": 1, "text": "站在……", "tip": "可选提示" }
+    { "order": 1, "text": "站在……", "tip": "可选提示", "image": "/placeholders/ascent-sova-a-recon-attack-step1.svg" }
   ],
   "images": {
     "position": "/placeholders/ascent-sova-a-recon-attack-position.svg",
@@ -178,15 +178,21 @@ src/
 
 ## 替换占位图
 
-当前 `public/placeholders/`、`public/maps/`、`public/agents/` 均为 **SVG 占位图**，方便先跑通站点。
+当前 `public/placeholders/`、`public/maps/`、`public/agents/` 均为 **原创 SVG 示意原图**（标注站位/准星/落点/步骤N），用于教学示意，**不是**游戏截图或第三方平台搬运内容。
 
 替换实机截图时：
 
 1. 导出 PNG/WebP（建议 16:9，如 1280×720）。
-2. 覆盖同名文件，或更新 JSON 中的路径。
+2. 覆盖同名文件，或更新 JSON 中的路径：
+   - 总览：`{spotId}-position|crosshair|landing.*`
+   - 分步：`{spotId}-step{N}.*`（对应 `steps[].image`）
 3. 无需改代码；Next.js 会按路径加载静态资源。
 
-请使用你自己录制的游戏截图，勿直接搬运他人受版权保护的图文内容。
+请使用你自己录制的游戏截图。勿刮取或粘贴小红书等平台的受版权保护图文。
+
+### 步骤配图（schema）
+
+每条 `steps[]` 可含 `image` 字段；点位详情页会在**每个步骤下方**渲染该图，同时保留顶部 `images` 三图图库以兼容旧浏览习惯。
 
 ## License
 

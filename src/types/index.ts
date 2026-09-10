@@ -32,6 +32,8 @@ export interface SpotStep {
   order: number;
   text: string;
   tip?: string;
+  /** Optional per-step instructional image path */
+  image?: string;
 }
 
 export interface SpotImages {

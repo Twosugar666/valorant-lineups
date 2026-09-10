@@ -13,7 +13,9 @@ export function buildSiteCatalog(): string {
     })
     .join("\n");
 
-  const spotLines = spots
+  const featured = spots.filter((s) => s.featured);
+  const sample = (featured.length ? featured : spots).slice(0, 40);
+  const spotLines = sample
     .map((s) => {
       const map = maps.find((m) => m.id === s.mapId)?.name ?? s.mapId;
       const agent = agents.find((a) => a.id === s.agentId)?.name ?? s.agentId;
@@ -28,7 +30,7 @@ export function buildSiteCatalog(): string {
     "【本站已收录特工】",
     agentLines,
     "",
-    "【本站点位目录（可引导用户打开 /spots/{id} 或 /maps、/agents）】",
+    `【本站点位摘要（共 ${spots.length} 条；下列为精选/样例，完整列表见 /search）】`,
     spotLines,
   ].join("\n");
 }

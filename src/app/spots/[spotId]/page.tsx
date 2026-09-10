@@ -35,6 +35,7 @@ export default async function SpotDetailPage({ params }: Props) {
   const map = getMap(spot.mapId);
   const agent = getAgent(spot.agentId);
   const ability = getAbilityName(spot.agentId, spot.abilityId);
+  const hasStepImages = spot.steps.some((s) => s.image);
 
   return (
     <article className="space-y-8">
@@ -77,12 +78,15 @@ export default async function SpotDetailPage({ params }: Props) {
         <h2 className="mb-4 text-lg font-bold">图示 · 站位 / 准星 / 落点</h2>
         <ImageGallery images={spot.images} />
         <p className="mt-2 text-xs text-val-muted">
-          当前为占位示意图，可将实机截图按 README 说明替换到 public/placeholders/
+          当前为示意原图（非游戏截图），可将实机截图按 README 说明替换到
+          public/placeholders/
         </p>
       </section>
 
       <section>
-        <h2 className="mb-4 text-lg font-bold">操作步骤</h2>
+        <h2 className="mb-4 text-lg font-bold">
+          操作步骤{hasStepImages ? "（每步配图）" : ""}
+        </h2>
         <div className="border border-val-border bg-val-card p-5">
           <StepList steps={spot.steps} />
         </div>

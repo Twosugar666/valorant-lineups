@@ -4,77 +4,649 @@
     "name": "索瓦",
     "nameEn": "Sova",
     "role": "先锋",
-    "image": "/agents/sova.svg",
     "color": "#3d7eff",
     "abilities": [
-      { "id": "recon", "name": "侦察箭头", "type": "recon" },
-      { "id": "shock", "name": "震荡箭", "type": "molly" },
-      { "id": "drone", "name": "Owl 无人机", "type": "recon" }
-    ]
-  },
-  {
-    "id": "viper",
-    "name": "蝰蛇",
-    "nameEn": "Viper",
-    "role": "控场",
-    "image": "/agents/viper.svg",
-    "color": "#30c78a",
-    "abilities": [
-      { "id": "poison-cloud", "name": "毒云", "type": "smoke" },
-      { "id": "snake-bite", "name": "蛇咬", "type": "molly" },
-      { "id": "toxic-screen", "name": "毒幕", "type": "wall" }
-    ]
-  },
-  {
-    "id": "brimstone",
-    "name": "铁臂",
-    "nameEn": "Brimstone",
-    "role": "控场",
-    "image": "/agents/brimstone.svg",
-    "color": "#e8a838",
-    "abilities": [
-      { "id": "sky-smoke", "name": "天空烟雾", "type": "smoke" },
-      { "id": "incendiary", "name": "燃烧弹", "type": "molly" },
-      { "id": "stim", "name": "激励信标", "type": "other" }
-    ]
-  },
-  {
-    "id": "killjoy",
-    "name": "零",
-    "nameEn": "Killjoy",
-    "role": "哨兵",
-    "image": "/agents/killjoy.svg",
-    "color": "#f0d84a",
-    "abilities": [
-      { "id": "nanoswarm", "name": "纳米群", "type": "molly" },
-      { "id": "alarmbot", "name": "报警机器人", "type": "trap" },
-      { "id": "turret", "name": "炮台", "type": "trap" }
-    ]
+      {
+        "id": "recon",
+        "name": "侦察箭头",
+        "type": "recon"
+      },
+      {
+        "id": "shock",
+        "name": "震荡箭",
+        "type": "molly"
+      },
+      {
+        "id": "drone",
+        "name": "Owl 无人机",
+        "type": "recon"
+      }
+    ],
+    "image": "/agents/sova.svg"
   },
   {
     "id": "fade",
     "name": "菲朵",
     "nameEn": "Fade",
     "role": "先锋",
-    "image": "/agents/fade.svg",
     "color": "#8b5cf6",
     "abilities": [
-      { "id": "haunt", "name": "萦绕", "type": "recon" },
-      { "id": "seize", "name": "捕获", "type": "other" },
-      { "id": "prowler", "name": "潜行者", "type": "recon" }
-    ]
+      {
+        "id": "haunt",
+        "name": "萦绕",
+        "type": "recon"
+      },
+      {
+        "id": "seize",
+        "name": "捕获",
+        "type": "other"
+      },
+      {
+        "id": "prowler",
+        "name": "潜行者",
+        "type": "recon"
+      }
+    ],
+    "image": "/agents/fade.svg"
+  },
+  {
+    "id": "gekko",
+    "name": "壁虎",
+    "nameEn": "Gekko",
+    "role": "先锋",
+    "color": "#84cc16",
+    "abilities": [
+      {
+        "id": "dizzy",
+        "name": "眩晕球",
+        "type": "flash"
+      },
+      {
+        "id": "mosh",
+        "name": "泥潭",
+        "type": "molly"
+      },
+      {
+        "id": "wingman",
+        "name": "翼手",
+        "type": "other"
+      }
+    ],
+    "image": "/agents/gekko.svg"
+  },
+  {
+    "id": "kayo",
+    "name": "KAY/O",
+    "nameEn": "KAY/O",
+    "role": "先锋",
+    "color": "#94a3b8",
+    "abilities": [
+      {
+        "id": "knife",
+        "name": "抑制刀",
+        "type": "other"
+      },
+      {
+        "id": "flash",
+        "name": "闪光弹",
+        "type": "flash"
+      },
+      {
+        "id": "frag",
+        "name": "破片手雷",
+        "type": "molly"
+      }
+    ],
+    "image": "/agents/kayo.svg"
+  },
+  {
+    "id": "breach",
+    "name": "破坏者",
+    "nameEn": "Breach",
+    "role": "先锋",
+    "color": "#f59e0b",
+    "abilities": [
+      {
+        "id": "flash",
+        "name": "闪光冲击",
+        "type": "flash"
+      },
+      {
+        "id": "faultline",
+        "name": "断层线",
+        "type": "other"
+      },
+      {
+        "id": "aftershock",
+        "name": "余震",
+        "type": "molly"
+      }
+    ],
+    "image": "/agents/breach.svg"
+  },
+  {
+    "id": "skye",
+    "name": "斯凯",
+    "nameEn": "Skye",
+    "role": "先锋",
+    "color": "#22c55e",
+    "abilities": [
+      {
+        "id": "flash",
+        "name": "引路者",
+        "type": "flash"
+      },
+      {
+        "id": "trailblazer",
+        "name": "探路者",
+        "type": "recon"
+      },
+      {
+        "id": "seekers",
+        "name": "搜寻者",
+        "type": "recon"
+      }
+    ],
+    "image": "/agents/skye.svg"
+  },
+  {
+    "id": "tejo",
+    "name": "钛狐",
+    "nameEn": "Tejo",
+    "role": "先锋",
+    "color": "#ea580c",
+    "abilities": [
+      {
+        "id": "drone",
+        "name": "潜袭爬虫",
+        "type": "recon"
+      },
+      {
+        "id": "strike",
+        "name": "特快专递",
+        "type": "molly"
+      },
+      {
+        "id": "guided",
+        "name": "制导打击",
+        "type": "other"
+      }
+    ],
+    "image": "/agents/tejo.svg"
+  },
+  {
+    "id": "viper",
+    "name": "蝰蛇",
+    "nameEn": "Viper",
+    "role": "控场",
+    "color": "#30c78a",
+    "abilities": [
+      {
+        "id": "poison-cloud",
+        "name": "毒云",
+        "type": "smoke"
+      },
+      {
+        "id": "snake-bite",
+        "name": "蛇咬",
+        "type": "molly"
+      },
+      {
+        "id": "toxic-screen",
+        "name": "毒幕",
+        "type": "wall"
+      }
+    ],
+    "image": "/agents/viper.svg"
+  },
+  {
+    "id": "omen",
+    "name": "幽影",
+    "nameEn": "Omen",
+    "role": "控场",
+    "color": "#6366f1",
+    "abilities": [
+      {
+        "id": "smoke",
+        "name": "暗影帷幕",
+        "type": "smoke"
+      },
+      {
+        "id": "paranoia",
+        "name": "偏执",
+        "type": "flash"
+      },
+      {
+        "id": "tp",
+        "name": "暗影步",
+        "type": "other"
+      }
+    ],
+    "image": "/agents/omen.svg"
+  },
+  {
+    "id": "brimstone",
+    "name": "铁臂",
+    "nameEn": "Brimstone",
+    "role": "控场",
+    "color": "#e8a838",
+    "abilities": [
+      {
+        "id": "sky-smoke",
+        "name": "天空烟雾",
+        "type": "smoke"
+      },
+      {
+        "id": "incendiary",
+        "name": "燃烧弹",
+        "type": "molly"
+      },
+      {
+        "id": "stim",
+        "name": "激励信标",
+        "type": "other"
+      }
+    ],
+    "image": "/agents/brimstone.svg"
+  },
+  {
+    "id": "astra",
+    "name": "星璇",
+    "nameEn": "Astra",
+    "role": "控场",
+    "color": "#a855f7",
+    "abilities": [
+      {
+        "id": "star-smoke",
+        "name": "星云",
+        "type": "smoke"
+      },
+      {
+        "id": "pull",
+        "name": "引力井",
+        "type": "other"
+      },
+      {
+        "id": "nova",
+        "name": "新星脉冲",
+        "type": "flash"
+      }
+    ],
+    "image": "/agents/astra.svg"
+  },
+  {
+    "id": "harbor",
+    "name": "海港",
+    "nameEn": "Harbor",
+    "role": "控场",
+    "color": "#0ea5e9",
+    "abilities": [
+      {
+        "id": "cove",
+        "name": "海湾",
+        "type": "smoke"
+      },
+      {
+        "id": "cascade",
+        "name": "瀑布",
+        "type": "wall"
+      },
+      {
+        "id": "high-tide",
+        "name": "高潮",
+        "type": "wall"
+      }
+    ],
+    "image": "/agents/harbor.svg"
+  },
+  {
+    "id": "clove",
+    "name": "丁香",
+    "nameEn": "Clove",
+    "role": "控场",
+    "color": "#ec4899",
+    "abilities": [
+      {
+        "id": "smoke",
+        "name": "冥烟",
+        "type": "smoke"
+      },
+      {
+        "id": "meddle",
+        "name": "搅局",
+        "type": "other"
+      },
+      {
+        "id": "ruse",
+        "name": "诈死烟",
+        "type": "smoke"
+      }
+    ],
+    "image": "/agents/clove.svg"
+  },
+  {
+    "id": "killjoy",
+    "name": "零",
+    "nameEn": "Killjoy",
+    "role": "哨兵",
+    "color": "#f0d84a",
+    "abilities": [
+      {
+        "id": "nanoswarm",
+        "name": "纳米群",
+        "type": "molly"
+      },
+      {
+        "id": "alarmbot",
+        "name": "报警机器人",
+        "type": "trap"
+      },
+      {
+        "id": "turret",
+        "name": "炮台",
+        "type": "trap"
+      }
+    ],
+    "image": "/agents/killjoy.svg"
   },
   {
     "id": "cypher",
     "name": "赛菲尔特",
     "nameEn": "Cypher",
     "role": "哨兵",
-    "image": "/agents/cypher.svg",
     "color": "#c4b5a0",
     "abilities": [
-      { "id": "cage", "name": "陷阱牢笼", "type": "smoke" },
-      { "id": "spycam", "name": "间谍摄像头", "type": "recon" },
-      { "id": "tripwire", "name": "陷阱线", "type": "trap" }
-    ]
+      {
+        "id": "cage",
+        "name": "陷阱牢笼",
+        "type": "smoke"
+      },
+      {
+        "id": "spycam",
+        "name": "间谍摄像头",
+        "type": "recon"
+      },
+      {
+        "id": "tripwire",
+        "name": "陷阱线",
+        "type": "trap"
+      }
+    ],
+    "image": "/agents/cypher.svg"
+  },
+  {
+    "id": "chamber",
+    "name": "尚勃尔",
+    "nameEn": "Chamber",
+    "role": "哨兵",
+    "color": "#fbbf24",
+    "abilities": [
+      {
+        "id": "trademark",
+        "name": "商标",
+        "type": "trap"
+      },
+      {
+        "id": "tp",
+        "name": "会合",
+        "type": "other"
+      },
+      {
+        "id": "headhunter",
+        "name": "猎首",
+        "type": "other"
+      }
+    ],
+    "image": "/agents/chamber.svg"
+  },
+  {
+    "id": "sage",
+    "name": "贤者",
+    "nameEn": "Sage",
+    "role": "哨兵",
+    "color": "#67e8f9",
+    "abilities": [
+      {
+        "id": "wall",
+        "name": "屏障之球",
+        "type": "wall"
+      },
+      {
+        "id": "slow",
+        "name": "减速力场",
+        "type": "other"
+      },
+      {
+        "id": "heal",
+        "name": "治疗之珠",
+        "type": "other"
+      }
+    ],
+    "image": "/agents/sage.svg"
+  },
+  {
+    "id": "deadlock",
+    "name": "死锁",
+    "nameEn": "Deadlock",
+    "role": "哨兵",
+    "color": "#cbd5e1",
+    "abilities": [
+      {
+        "id": "barrier",
+        "name": "声波屏障",
+        "type": "wall"
+      },
+      {
+        "id": "gravnet",
+        "name": "引力网",
+        "type": "trap"
+      },
+      {
+        "id": "sensor",
+        "name": "声波感应",
+        "type": "trap"
+      }
+    ],
+    "image": "/agents/deadlock.svg"
+  },
+  {
+    "id": "jett",
+    "name": "捷风",
+    "nameEn": "Jett",
+    "role": "决斗",
+    "color": "#e0f2fe",
+    "abilities": [
+      {
+        "id": "updraft",
+        "name": "升腾",
+        "type": "other"
+      },
+      {
+        "id": "dash",
+        "name": "顺风",
+        "type": "other"
+      },
+      {
+        "id": "smoke",
+        "name": "云雾",
+        "type": "smoke"
+      }
+    ],
+    "image": "/agents/jett.svg"
+  },
+  {
+    "id": "raze",
+    "name": "雷兹",
+    "nameEn": "Raze",
+    "role": "决斗",
+    "color": "#f97316",
+    "abilities": [
+      {
+        "id": "satchel",
+        "name": "爆破包",
+        "type": "other"
+      },
+      {
+        "id": "nade",
+        "name": "涂料手雷",
+        "type": "molly"
+      },
+      {
+        "id": "bot",
+        "name": "轰击机器人",
+        "type": "recon"
+      }
+    ],
+    "image": "/agents/raze.svg"
+  },
+  {
+    "id": "neon",
+    "name": "霓虹",
+    "nameEn": "Neon",
+    "role": "决斗",
+    "color": "#22d3ee",
+    "abilities": [
+      {
+        "id": "slide",
+        "name": "高速滑行",
+        "type": "other"
+      },
+      {
+        "id": "wall",
+        "name": "电墙",
+        "type": "wall"
+      },
+      {
+        "id": "stun",
+        "name": "眩光",
+        "type": "flash"
+      }
+    ],
+    "image": "/agents/neon.svg"
+  },
+  {
+    "id": "yoru",
+    "name": "夜露",
+    "nameEn": "Yoru",
+    "role": "决斗",
+    "color": "#3b82f6",
+    "abilities": [
+      {
+        "id": "tp",
+        "name": "次元门",
+        "type": "other"
+      },
+      {
+        "id": "flash",
+        "name": "致盲",
+        "type": "flash"
+      },
+      {
+        "id": "clone",
+        "name": "分身",
+        "type": "recon"
+      }
+    ],
+    "image": "/agents/yoru.svg"
+  },
+  {
+    "id": "phoenix",
+    "name": "菲尼克斯",
+    "nameEn": "Phoenix",
+    "role": "决斗",
+    "color": "#ef4444",
+    "abilities": [
+      {
+        "id": "flash",
+        "name": "曲线闪光",
+        "type": "flash"
+      },
+      {
+        "id": "wall",
+        "name": "火墙",
+        "type": "wall"
+      },
+      {
+        "id": "molly",
+        "name": "热力灼烧",
+        "type": "molly"
+      }
+    ],
+    "image": "/agents/phoenix.svg"
+  },
+  {
+    "id": "reyna",
+    "name": "蕾娜",
+    "nameEn": "Reyna",
+    "role": "决斗",
+    "color": "#a21caf",
+    "abilities": [
+      {
+        "id": "leer",
+        "name": "蔑视",
+        "type": "flash"
+      },
+      {
+        "id": "devour",
+        "name": "吞噬",
+        "type": "other"
+      },
+      {
+        "id": "dismiss",
+        "name": "驱逐",
+        "type": "other"
+      }
+    ],
+    "image": "/agents/reyna.svg"
+  },
+  {
+    "id": "iso",
+    "name": "壹决",
+    "nameEn": "Iso",
+    "role": "决斗",
+    "color": "#818cf8",
+    "abilities": [
+      {
+        "id": "shield",
+        "name": "动能护盾",
+        "type": "other"
+      },
+      {
+        "id": "vulnerable",
+        "name": "脆弱余波",
+        "type": "other"
+      },
+      {
+        "id": "wall",
+        "name": "双重墙",
+        "type": "wall"
+      }
+    ],
+    "image": "/agents/iso.svg"
+  },
+  {
+    "id": "waylay",
+    "name": "幻棱",
+    "nameEn": "Waylay",
+    "role": "决斗",
+    "color": "#f472b6",
+    "abilities": [
+      {
+        "id": "flash",
+        "name": "光棱闪爆",
+        "type": "flash"
+      },
+      {
+        "id": "dash",
+        "name": "光速飞跃",
+        "type": "other"
+      },
+      {
+        "id": "recall",
+        "name": "溯流回光",
+        "type": "other"
+      }
+    ],
+    "image": "/agents/waylay.svg"
   }
 ]

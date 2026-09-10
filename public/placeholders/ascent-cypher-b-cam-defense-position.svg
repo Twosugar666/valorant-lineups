@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f1923"/>
+      <stop offset="100%" stop-color="#1a2332"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#c4b5a0"/>
+    </marker>
+  </defs>
+  <rect width="960" height="540" fill="url(#bg)"/>
+  <rect x="24" y="24" width="912" height="492" fill="none" stroke="#c4b5a0" stroke-width="2" stroke-dasharray="8 6" opacity="0.55"/>
+  <circle cx="480" cy="220" r="48" fill="none" stroke="#c4b5a0" stroke-width="3" opacity="0.8"/>
+  <circle cx="480" cy="220" r="8" fill="#c4b5a0"/>
+  <path d="M480 120 L480 170" stroke="#c4b5a0" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="480" y="360" text-anchor="middle" fill="#c4b5a0" font-family="system-ui,sans-serif" font-size="34" font-weight="700">站位</text>
+  <text x="480" y="400" text-anchor="middle" fill="#8b9bb4" font-family="system-ui,sans-serif" font-size="16">B 点摄像头盯点</text>
+  <text x="480" y="432" text-anchor="middle" fill="#5a6a80" font-family="system-ui,sans-serif" font-size="13">亚海悬城 · 赛菲尔特 · 防守 · 示意原图</text>
+  <text x="480" y="462" text-anchor="middle" fill="#3d4a5c" font-family="system-ui,sans-serif" font-size="12">可替换为实机截图 · 非游戏截图搬运</text>
+</svg>
