@@ -18,6 +18,6 @@
     <rect x="155" y="115" width="90" height="90" fill="none" stroke="#cbd5e1" stroke-width="3" transform="rotate(45 200 160)"/>
     <rect x="175" y="135" width="50" height="50" fill="#cbd5e1" opacity="0.2" transform="rotate(45 200 160)"/>
     <circle cx="200" cy="160" r="8" fill="#cbd5e1"/>
-  <text x="200" y="310" text-anchor="middle" fill="#cbd5e1" font-family="system-ui,sans-serif" font-size="28" font-weight="700">死锁</text>
-  <text x="200" y="340" text-anchor="middle" fill="#8b9bb4" font-family="system-ui,sans-serif" font-size="14">Deadlock · 哨兵</text>
+  <text x="200" y="310" text-anchor="middle" fill="#cbd5e1" font-family="system-ui,sans-serif" font-size="28" font-weight="700">钢锁</text>
+  <text x="200" y="340" text-anchor="middle" fill="#8b9bb4" font-family="system-ui,sans-serif" font-size="14">Deadlock · 哨卫</text>
 </svg>

@@ -1,24 +1,24 @@
 [
   {
     "id": "sova",
-    "name": "索瓦",
+    "name": "猎枭",
     "nameEn": "Sova",
     "role": "先锋",
     "color": "#3d7eff",
     "abilities": [
       {
         "id": "recon",
-        "name": "侦察箭头",
+        "name": "侦察箭",
         "type": "recon"
       },
       {
         "id": "shock",
-        "name": "震荡箭",
+        "name": "震波箭",
         "type": "molly"
       },
       {
         "id": "drone",
-        "name": "Owl 无人机",
+        "name": "夜枭无人机",
         "type": "recon"
       }
     ],
@@ -26,7 +26,7 @@
   },
   {
     "id": "fade",
-    "name": "菲朵",
+    "name": "黑梦",
     "nameEn": "Fade",
     "role": "先锋",
     "color": "#8b5cf6",
@@ -51,7 +51,7 @@
   },
   {
     "id": "gekko",
-    "name": "壁虎",
+    "name": "盖可",
     "nameEn": "Gekko",
     "role": "先锋",
     "color": "#84cc16",
@@ -76,7 +76,7 @@
   },
   {
     "id": "kayo",
-    "name": "KAY/O",
+    "name": "K/O",
     "nameEn": "KAY/O",
     "role": "先锋",
     "color": "#94a3b8",
@@ -101,7 +101,7 @@
   },
   {
     "id": "breach",
-    "name": "破坏者",
+    "name": "铁臂",
     "nameEn": "Breach",
     "role": "先锋",
     "color": "#f59e0b",
@@ -226,7 +226,7 @@
   },
   {
     "id": "brimstone",
-    "name": "铁臂",
+    "name": "炼狱",
     "nameEn": "Brimstone",
     "role": "控场",
     "color": "#e8a838",
@@ -251,7 +251,7 @@
   },
   {
     "id": "astra",
-    "name": "星璇",
+    "name": "星礈",
     "nameEn": "Astra",
     "role": "控场",
     "color": "#a855f7",
@@ -276,7 +276,7 @@
   },
   {
     "id": "harbor",
-    "name": "海港",
+    "name": "海神",
     "nameEn": "Harbor",
     "role": "控场",
     "color": "#0ea5e9",
@@ -301,7 +301,7 @@
   },
   {
     "id": "clove",
-    "name": "丁香",
+    "name": "暮蝶",
     "nameEn": "Clove",
     "role": "控场",
     "color": "#ec4899",
@@ -326,9 +326,9 @@
   },
   {
     "id": "killjoy",
-    "name": "零",
+    "name": "奇乐",
     "nameEn": "Killjoy",
-    "role": "哨兵",
+    "role": "哨卫",
     "color": "#f0d84a",
     "abilities": [
       {
@@ -351,9 +351,9 @@
   },
   {
     "id": "cypher",
-    "name": "赛菲尔特",
+    "name": "零",
     "nameEn": "Cypher",
-    "role": "哨兵",
+    "role": "哨卫",
     "color": "#c4b5a0",
     "abilities": [
       {
@@ -376,9 +376,9 @@
   },
   {
     "id": "chamber",
-    "name": "尚勃尔",
+    "name": "尚勃勒",
     "nameEn": "Chamber",
-    "role": "哨兵",
+    "role": "哨卫",
     "color": "#fbbf24",
     "abilities": [
       {
@@ -403,7 +403,7 @@
     "id": "sage",
     "name": "贤者",
     "nameEn": "Sage",
-    "role": "哨兵",
+    "role": "哨卫",
     "color": "#67e8f9",
     "abilities": [
       {
@@ -426,9 +426,9 @@
   },
   {
     "id": "deadlock",
-    "name": "死锁",
+    "name": "钢锁",
     "nameEn": "Deadlock",
-    "role": "哨兵",
+    "role": "哨卫",
     "color": "#cbd5e1",
     "abilities": [
       {
@@ -551,7 +551,7 @@
   },
   {
     "id": "phoenix",
-    "name": "菲尼克斯",
+    "name": "不死鸟",
     "nameEn": "Phoenix",
     "role": "决斗",
     "color": "#ef4444",
@@ -576,7 +576,7 @@
   },
   {
     "id": "reyna",
-    "name": "蕾娜",
+    "name": "芮娜",
     "nameEn": "Reyna",
     "role": "决斗",
     "color": "#a21caf",

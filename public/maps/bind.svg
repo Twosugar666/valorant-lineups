@@ -19,7 +19,7 @@
         <ellipse cx="420" cy="180" rx="28" ry="48" fill="none" stroke="#fbbf24" stroke-width="2.5"/>
         <path d="M248 180 C300 140 340 140 392 180" fill="none" stroke="#fbbf24" stroke-width="2" stroke-dasharray="5 4" opacity="0.6"/>
   <rect x="40" y="300" width="560" height="2" fill="url(#accentFade)"/>
-  <text x="320" y="175" text-anchor="middle" fill="#fbbf24" font-family="system-ui,sans-serif" font-size="34" font-weight="700">裂变峡谷</text>
+  <text x="320" y="175" text-anchor="middle" fill="#fbbf24" font-family="system-ui,sans-serif" font-size="34" font-weight="700">源工重镇</text>
   <text x="320" y="210" text-anchor="middle" fill="#8b9bb4" font-family="system-ui,sans-serif" font-size="18">Bind</text>
   <text x="320" y="240" text-anchor="middle" fill="#5a6a80" font-family="system-ui,sans-serif" font-size="12">包点 A / B</text>
 </svg>

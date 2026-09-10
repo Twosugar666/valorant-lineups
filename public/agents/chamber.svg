@@ -18,6 +18,6 @@
     <path d="M160 100 L240 100 L260 160 L200 240 L140 160 Z" fill="none" stroke="#fbbf24" stroke-width="3"/>
     <circle cx="200" cy="155" r="18" fill="#fbbf24" opacity="0.35"/>
     <line x1="200" y1="120" x2="200" y2="190" stroke="#fbbf24" stroke-width="2"/>
-  <text x="200" y="310" text-anchor="middle" fill="#fbbf24" font-family="system-ui,sans-serif" font-size="28" font-weight="700">尚勃尔</text>
-  <text x="200" y="340" text-anchor="middle" fill="#8b9bb4" font-family="system-ui,sans-serif" font-size="14">Chamber · 哨兵</text>
+  <text x="200" y="310" text-anchor="middle" fill="#fbbf24" font-family="system-ui,sans-serif" font-size="28" font-weight="700">尚勃勒</text>
+  <text x="200" y="340" text-anchor="middle" fill="#8b9bb4" font-family="system-ui,sans-serif" font-size="14">Chamber · 哨卫</text>
 </svg>

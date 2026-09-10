@@ -18,6 +18,6 @@
     <path d="M200 95 L235 150 L200 140 L165 150 Z" fill="#ef4444"/>
     <path d="M140 160 Q170 130 200 160 Q230 130 260 160 L245 230 Q200 260 155 230 Z" fill="none" stroke="#ef4444" stroke-width="2.5"/>
     <circle cx="200" cy="185" r="14" fill="#ef4444" opacity="0.4"/>
-  <text x="200" y="310" text-anchor="middle" fill="#ef4444" font-family="system-ui,sans-serif" font-size="28" font-weight="700">菲尼克斯</text>
+  <text x="200" y="310" text-anchor="middle" fill="#ef4444" font-family="system-ui,sans-serif" font-size="28" font-weight="700">不死鸟</text>
   <text x="200" y="340" text-anchor="middle" fill="#8b9bb4" font-family="system-ui,sans-serif" font-size="14">Phoenix · 决斗</text>
 </svg>

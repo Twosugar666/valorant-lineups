@@ -19,6 +19,6 @@
     <path d="M170 140 Q200 110 230 140" fill="none" stroke="#a21caf" stroke-width="2.5"/>
     <circle cx="180" cy="155" r="8" fill="#a21caf"/><circle cx="220" cy="155" r="8" fill="#a21caf"/>
     <path d="M175 190 Q200 210 225 190" fill="none" stroke="#a21caf" stroke-width="2"/>
-  <text x="200" y="310" text-anchor="middle" fill="#a21caf" font-family="system-ui,sans-serif" font-size="28" font-weight="700">蕾娜</text>
+  <text x="200" y="310" text-anchor="middle" fill="#a21caf" font-family="system-ui,sans-serif" font-size="28" font-weight="700">芮娜</text>
   <text x="200" y="340" text-anchor="middle" fill="#8b9bb4" font-family="system-ui,sans-serif" font-size="14">Reyna · 决斗</text>
 </svg>

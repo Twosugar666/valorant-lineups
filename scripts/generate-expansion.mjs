@@ -112,7 +112,7 @@ const maps = [
   },
   {
     id: "haven",
-    name: "天堂",
+    name: "隐世修所",
     nameEn: "Haven",
     sites: ["A", "B", "C"],
     image: "/maps/haven.svg",
@@ -130,7 +130,7 @@ const maps = [
   },
   {
     id: "split",
-    name: "分裂",
+    name: "霓虹町",
     nameEn: "Split",
     sites: ["A", "B"],
     image: "/maps/split.svg",
@@ -157,7 +157,7 @@ const maps = [
   },
   {
     id: "bind",
-    name: "裂变峡谷",
+    name: "源工重镇",
     nameEn: "Bind",
     sites: ["A", "B"],
     image: "/maps/bind.svg",
@@ -169,19 +169,19 @@ const maps = [
 const agents = [
   {
     id: "sova",
-    name: "索瓦",
+    name: "猎枭",
     nameEn: "Sova",
     role: "先锋",
     color: "#3d7eff",
     abilities: [
-      { id: "recon", name: "侦察箭头", type: "recon" },
-      { id: "shock", name: "震荡箭", type: "molly" },
-      { id: "drone", name: "Owl 无人机", type: "recon" },
+      { id: "recon", name: "侦察箭", type: "recon" },
+      { id: "shock", name: "震波箭", type: "molly" },
+      { id: "drone", name: "夜枭无人机", type: "recon" },
     ],
   },
   {
     id: "fade",
-    name: "菲朵",
+    name: "黑梦",
     nameEn: "Fade",
     role: "先锋",
     color: "#8b5cf6",
@@ -193,7 +193,7 @@ const agents = [
   },
   {
     id: "gekko",
-    name: "壁虎",
+    name: "盖可",
     nameEn: "Gekko",
     role: "先锋",
     color: "#84cc16",
@@ -205,8 +205,8 @@ const agents = [
   },
   {
     id: "kayo",
-    name: "KAY/O",
-    nameEn: "KAY/O",
+    name: "K/O",
+    nameEn: "K/O",
     role: "先锋",
     color: "#94a3b8",
     abilities: [
@@ -217,7 +217,7 @@ const agents = [
   },
   {
     id: "breach",
-    name: "破坏者",
+    name: "铁臂",
     nameEn: "Breach",
     role: "先锋",
     color: "#f59e0b",
@@ -277,7 +277,7 @@ const agents = [
   },
   {
     id: "brimstone",
-    name: "铁臂",
+    name: "炼狱",
     nameEn: "Brimstone",
     role: "控场",
     color: "#e8a838",
@@ -289,7 +289,7 @@ const agents = [
   },
   {
     id: "astra",
-    name: "星璇",
+    name: "星礈",
     nameEn: "Astra",
     role: "控场",
     color: "#a855f7",
@@ -301,7 +301,7 @@ const agents = [
   },
   {
     id: "harbor",
-    name: "海港",
+    name: "海神",
     nameEn: "Harbor",
     role: "控场",
     color: "#0ea5e9",
@@ -313,7 +313,7 @@ const agents = [
   },
   {
     id: "clove",
-    name: "丁香",
+    name: "暮蝶",
     nameEn: "Clove",
     role: "控场",
     color: "#ec4899",
@@ -325,9 +325,9 @@ const agents = [
   },
   {
     id: "killjoy",
-    name: "零",
+    name: "奇乐",
     nameEn: "Killjoy",
-    role: "哨兵",
+    role: "哨卫",
     color: "#f0d84a",
     abilities: [
       { id: "nanoswarm", name: "纳米群", type: "molly" },
@@ -337,9 +337,9 @@ const agents = [
   },
   {
     id: "cypher",
-    name: "赛菲尔特",
+    name: "零",
     nameEn: "Cypher",
-    role: "哨兵",
+    role: "哨卫",
     color: "#c4b5a0",
     abilities: [
       { id: "cage", name: "陷阱牢笼", type: "smoke" },
@@ -349,9 +349,9 @@ const agents = [
   },
   {
     id: "chamber",
-    name: "尚勃尔",
+    name: "尚勃勒",
     nameEn: "Chamber",
-    role: "哨兵",
+    role: "哨卫",
     color: "#fbbf24",
     abilities: [
       { id: "trademark", name: "商标", type: "trap" },
@@ -363,7 +363,7 @@ const agents = [
     id: "sage",
     name: "贤者",
     nameEn: "Sage",
-    role: "哨兵",
+    role: "哨卫",
     color: "#67e8f9",
     abilities: [
       { id: "wall", name: "屏障之球", type: "wall" },
@@ -373,9 +373,9 @@ const agents = [
   },
   {
     id: "deadlock",
-    name: "死锁",
+    name: "钢锁",
     nameEn: "Deadlock",
-    role: "哨兵",
+    role: "哨卫",
     color: "#cbd5e1",
     abilities: [
       { id: "barrier", name: "声波屏障", type: "wall" },
@@ -433,7 +433,7 @@ const agents = [
   },
   {
     id: "phoenix",
-    name: "菲尼克斯",
+    name: "不死鸟",
     nameEn: "Phoenix",
     role: "决斗",
     color: "#ef4444",
@@ -445,7 +445,7 @@ const agents = [
   },
   {
     id: "reyna",
-    name: "蕾娜",
+    name: "芮娜",
     nameEn: "Reyna",
     role: "决斗",
     color: "#a21caf",
@@ -677,7 +677,7 @@ function buildSpots() {
       difficulty: "medium",
       tags: ["清点", "爆发"],
       title: "B 点震荡清点",
-      description: `进攻 ${map.name} B 时用震荡箭清理常见角落，逼出防守方。`,
+      description: `进攻 ${map.name} B 时用震波箭清理常见角落，逼出防守方。`,
       steps: [
         { text: `靠近${L.bMain}，站在可安全掏箭的位置。` },
         { text: "准星瞄向包点上方参照物，两充或三充按练习调整。", tip: "先在自定义房校准弧线。" },
@@ -935,7 +935,7 @@ function buildSpots() {
       title: "A 点天空烟执行",
       description: `用地图技能精准封住 A 点天堂与后点，适合标准执行。`,
       steps: [
-        { text: "打开铁臂地图界面，标记天堂与后点烟位。" },
+        { text: "打开炼狱地图界面，标记天堂与后点烟位。" },
         { text: "确认队友集合后再放出烟雾。", tip: "可留一颗烟应对转点。" },
         { text: "进点后用燃烧弹清常见角落。" },
         { text: "下包阶段燃烧弹拖延拆包。" },

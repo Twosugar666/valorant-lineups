@@ -33,7 +33,7 @@ export default async function SearchPage({ searchParams }: Props) {
       <div>
         <h1 className="text-2xl font-bold">搜索点位</h1>
         <p className="mt-1 text-val-muted">
-          按关键词、地图、特工、攻防、技能类型、包点筛选
+          按关键词、地图、英雄、攻防、技能类型、包点筛选
         </p>
       </div>
 

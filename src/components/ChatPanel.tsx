@@ -13,10 +13,10 @@ type Msg = {
 const MAX_TURNS = 12; // user+assistant pairs kept roughly
 
 const SUGGESTIONS = [
-  "亚海悬城索瓦 A 点进攻怎么打侦察箭？",
-  "裂变峡谷蝰蛇有哪些保包线？",
+  "亚海悬城猎枭 A 点进攻怎么打侦察箭？",
+  "源工重镇蝰蛇有哪些保包线？",
   "本站有哪些适合新手的烟雾点位？",
-  "天堂地图赛菲尔特防守怎么摆？",
+  "隐世修所零防守怎么摆？",
 ];
 
 function uid() {
@@ -129,7 +129,7 @@ export function ChatPanel() {
         <div>
           <h2 className="font-semibold text-foreground">点位问答 AI</h2>
           <p className="text-xs text-val-muted">
-            由 DeepSeek 驱动 · 结合本站地图 / 特工 / 点位目录
+            由 DeepSeek 驱动 · 结合本站地图 / 英雄 / 点位目录
           </p>
         </div>
         {messages.length > 0 && (
@@ -147,7 +147,7 @@ export function ChatPanel() {
         {messages.length === 0 && (
           <div className="space-y-4 py-6 text-center">
             <p className="text-sm text-val-muted">
-              问问地图道具线、特工用法，或让我帮你找到站内点位。
+              问问地图道具线、英雄用法，或让我帮你找到站内点位。
             </p>
             <div className="mx-auto flex max-w-xl flex-wrap justify-center gap-2">
               {SUGGESTIONS.map((s) => (
@@ -198,7 +198,7 @@ export function ChatPanel() {
           type="text"
           value={input}
           onChange={(e) => setInput(e.target.value)}
-          placeholder="例如：分裂地图零 A 天堂怎么架？"
+          placeholder="例如：霓虹町奇乐 A 天堂怎么架？"
           disabled={loading}
           className="min-w-0 flex-1 rounded border border-val-border bg-val-elevated px-3 py-2.5 text-sm outline-none placeholder:text-val-muted focus:border-val-cyan"
           maxLength={2000}

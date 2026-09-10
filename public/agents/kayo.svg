@@ -19,6 +19,6 @@
     <circle cx="200" cy="165" r="28" fill="none" stroke="#94a3b8" stroke-width="2.5"/>
     <line x1="200" y1="137" x2="200" y2="193" stroke="#94a3b8" stroke-width="2"/>
     <line x1="172" y1="165" x2="228" y2="165" stroke="#94a3b8" stroke-width="2"/>
-  <text x="200" y="310" text-anchor="middle" fill="#94a3b8" font-family="system-ui,sans-serif" font-size="28" font-weight="700">KAY/O</text>
-  <text x="200" y="340" text-anchor="middle" fill="#8b9bb4" font-family="system-ui,sans-serif" font-size="14">KAY/O · 先锋</text>
+  <text x="200" y="310" text-anchor="middle" fill="#94a3b8" font-family="system-ui,sans-serif" font-size="28" font-weight="700">K/O</text>
+  <text x="200" y="340" text-anchor="middle" fill="#8b9bb4" font-family="system-ui,sans-serif" font-size="14">K/O · 先锋</text>
 </svg>

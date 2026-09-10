@@ -16,11 +16,11 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "瓦罗兰特点位指南",
-    template: "%s · 瓦罗兰特点位指南",
+    default: "无畏契约点位指南",
+    template: "%s · 无畏契约点位指南",
   },
   description:
-    "瓦罗兰特（Valorant）地图道具点位图文指南：按地图 / 特工浏览进攻与防守技能线，含站位、准星、落点步骤说明。",
+    "无畏契约（Valorant）地图道具点位图文指南：按地图 / 英雄浏览进攻与防守技能线，含站位、准星、落点步骤说明。",
 };
 
 export default function RootLayout({

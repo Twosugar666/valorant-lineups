@@ -97,13 +97,13 @@ export default async function SpotDetailPage({ params }: Props) {
           href={`/maps/${spot.mapId}/${spot.side}/${spot.agentId}`}
           className="text-val-red transition hover:underline"
         >
-          ← 同图同侧同特工更多点位
+          ← 同图同侧同英雄更多点位
         </Link>
         <Link
           href={`/agents/${spot.agentId}/${spot.mapId}`}
           className="text-val-muted transition hover:text-val-cyan"
         >
-          该特工在本图全部点位
+          该英雄在本图全部点位
         </Link>
       </div>
     </article>

@@ -58,7 +58,7 @@ export default async function MapSidePage({ params }: Props) {
       <SideTabs basePath={`/maps/${mapId}`} active={side} />
 
       <section>
-        <h2 className="mb-3 text-sm font-medium text-val-muted">选择特工</h2>
+        <h2 className="mb-3 text-sm font-medium text-val-muted">选择英雄</h2>
         <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4">
           {agentIds.map((id) => {
             const agent = agents.find((a) => a.id === id);

@@ -10,7 +10,7 @@ export default function MapsPage() {
       <div>
         <h1 className="section-title text-2xl">地图</h1>
         <p className="mt-4 text-val-muted">
-          选择地图 → 进攻/防守 → 特工 → 查看点位列表
+          选择地图 → 进攻/防守 → 英雄 → 查看点位列表
         </p>
       </div>
       <div className="grid gap-4 sm:grid-cols-2">

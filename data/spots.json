@@ -60,7 +60,7 @@
       "爆发"
     ],
     "title": "B 点震荡清点",
-    "description": "进攻 幽邃地窟 B 时用震荡箭清理常见角落，逼出防守方。",
+    "description": "进攻 幽邃地窟 B 时用震波箭清理常见角落，逼出防守方。",
     "steps": [
       {
         "order": 1,
@@ -598,7 +598,7 @@
     "steps": [
       {
         "order": 1,
-        "text": "打开铁臂地图界面，标记天堂与后点烟位。",
+        "text": "打开炼狱地图界面，标记天堂与后点烟位。",
         "image": "/placeholders/abyss-brim-a-smoke-attack-step1.svg"
       },
       {
@@ -1654,7 +1654,7 @@
       "爆发"
     ],
     "title": "B 点震荡清点",
-    "description": "进攻 亚海悬城 B 时用震荡箭清理常见角落，逼出防守方。",
+    "description": "进攻 亚海悬城 B 时用震波箭清理常见角落，逼出防守方。",
     "steps": [
       {
         "order": 1,
@@ -2192,7 +2192,7 @@
     "steps": [
       {
         "order": 1,
-        "text": "打开铁臂地图界面，标记天堂与后点烟位。",
+        "text": "打开炼狱地图界面，标记天堂与后点烟位。",
         "image": "/placeholders/ascent-brim-a-smoke-attack-step1.svg"
       },
       {
@@ -3203,7 +3203,7 @@
     ],
     "featured": true,
     "title": "A 包点侦察箭（进攻）",
-    "description": "从进攻方安全位抛出侦察箭，扫清 天堂 A 点常见蹲位，适合默认推进前获取信息。",
+    "description": "从进攻方安全位抛出侦察箭，扫清 隐世修所 A 点常见蹲位，适合默认推进前获取信息。",
     "steps": [
       {
         "order": 1,
@@ -3248,7 +3248,7 @@
       "爆发"
     ],
     "title": "B 点震荡清点",
-    "description": "进攻 天堂 B 时用震荡箭清理常见角落，逼出防守方。",
+    "description": "进攻 隐世修所 B 时用震波箭清理常见角落，逼出防守方。",
     "steps": [
       {
         "order": 1,
@@ -3293,7 +3293,7 @@
       "默认"
     ],
     "title": "中路回防侦察箭",
-    "description": "防守回合用侦察箭扫描 天堂 中路与转点路线，提前发现偷人。",
+    "description": "防守回合用侦察箭扫描 隐世修所 中路与转点路线，提前发现偷人。",
     "steps": [
       {
         "order": 1,
@@ -3786,7 +3786,7 @@
     "steps": [
       {
         "order": 1,
-        "text": "打开铁臂地图界面，标记天堂与后点烟位。",
+        "text": "打开炼狱地图界面，标记天堂与后点烟位。",
         "image": "/placeholders/haven-brim-a-smoke-attack-step1.svg"
       },
       {
@@ -5017,7 +5017,7 @@
       "爆发"
     ],
     "title": "B 点震荡清点",
-    "description": "进攻 莲华古城 B 时用震荡箭清理常见角落，逼出防守方。",
+    "description": "进攻 莲华古城 B 时用震波箭清理常见角落，逼出防守方。",
     "steps": [
       {
         "order": 1,
@@ -5555,7 +5555,7 @@
     "steps": [
       {
         "order": 1,
-        "text": "打开铁臂地图界面，标记天堂与后点烟位。",
+        "text": "打开炼狱地图界面，标记天堂与后点烟位。",
         "image": "/placeholders/lotus-brim-a-smoke-attack-step1.svg"
       },
       {
@@ -6741,7 +6741,7 @@
     ],
     "featured": false,
     "title": "A 包点侦察箭（进攻）",
-    "description": "从进攻方安全位抛出侦察箭，扫清 分裂 A 点常见蹲位，适合默认推进前获取信息。",
+    "description": "从进攻方安全位抛出侦察箭，扫清 霓虹町 A 点常见蹲位，适合默认推进前获取信息。",
     "steps": [
       {
         "order": 1,
@@ -6786,7 +6786,7 @@
       "爆发"
     ],
     "title": "B 点震荡清点",
-    "description": "进攻 分裂 B 时用震荡箭清理常见角落，逼出防守方。",
+    "description": "进攻 霓虹町 B 时用震波箭清理常见角落，逼出防守方。",
     "steps": [
       {
         "order": 1,
@@ -6831,7 +6831,7 @@
       "默认"
     ],
     "title": "中路回防侦察箭",
-    "description": "防守回合用侦察箭扫描 分裂 中路与转点路线，提前发现偷人。",
+    "description": "防守回合用侦察箭扫描 霓虹町 中路与转点路线，提前发现偷人。",
     "steps": [
       {
         "order": 1,
@@ -7324,7 +7324,7 @@
     "steps": [
       {
         "order": 1,
-        "text": "打开铁臂地图界面，标记天堂与后点烟位。",
+        "text": "打开炼狱地图界面，标记天堂与后点烟位。",
         "image": "/placeholders/split-brim-a-smoke-attack-step1.svg"
       },
       {
@@ -8380,7 +8380,7 @@
       "爆发"
     ],
     "title": "B 点震荡清点",
-    "description": "进攻 天枢云阙 B 时用震荡箭清理常见角落，逼出防守方。",
+    "description": "进攻 天枢云阙 B 时用震波箭清理常见角落，逼出防守方。",
     "steps": [
       {
         "order": 1,
@@ -8918,7 +8918,7 @@
     "steps": [
       {
         "order": 1,
-        "text": "打开铁臂地图界面，标记天堂与后点烟位。",
+        "text": "打开炼狱地图界面，标记天堂与后点烟位。",
         "image": "/placeholders/summit-brim-a-smoke-attack-step1.svg"
       },
       {
@@ -9974,7 +9974,7 @@
       "爆发"
     ],
     "title": "B 点震荡清点",
-    "description": "进攻 日落之城 B 时用震荡箭清理常见角落，逼出防守方。",
+    "description": "进攻 日落之城 B 时用震波箭清理常见角落，逼出防守方。",
     "steps": [
       {
         "order": 1,
@@ -10512,7 +10512,7 @@
     "steps": [
       {
         "order": 1,
-        "text": "打开铁臂地图界面，标记天堂与后点烟位。",
+        "text": "打开炼狱地图界面，标记天堂与后点烟位。",
         "image": "/placeholders/sunset-brim-a-smoke-attack-step1.svg"
       },
       {
@@ -11523,7 +11523,7 @@
     ],
     "featured": false,
     "title": "A 包点侦察箭（进攻）",
-    "description": "从进攻方安全位抛出侦察箭，扫清 裂变峡谷 A 点常见蹲位，适合默认推进前获取信息。",
+    "description": "从进攻方安全位抛出侦察箭，扫清 源工重镇 A 点常见蹲位，适合默认推进前获取信息。",
     "steps": [
       {
         "order": 1,
@@ -11568,7 +11568,7 @@
       "爆发"
     ],
     "title": "B 点震荡清点",
-    "description": "进攻 裂变峡谷 B 时用震荡箭清理常见角落，逼出防守方。",
+    "description": "进攻 源工重镇 B 时用震波箭清理常见角落，逼出防守方。",
     "steps": [
       {
         "order": 1,
@@ -11613,7 +11613,7 @@
       "默认"
     ],
     "title": "中路回防侦察箭",
-    "description": "防守回合用侦察箭扫描 裂变峡谷 中路与转点路线，提前发现偷人。",
+    "description": "防守回合用侦察箭扫描 源工重镇 中路与转点路线，提前发现偷人。",
     "steps": [
       {
         "order": 1,
@@ -12106,7 +12106,7 @@
     "steps": [
       {
         "order": 1,
-        "text": "打开铁臂地图界面，标记天堂与后点烟位。",
+        "text": "打开炼狱地图界面，标记天堂与后点烟位。",
         "image": "/placeholders/bind-brim-a-smoke-attack-step1.svg"
       },
       {

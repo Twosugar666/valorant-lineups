@@ -18,6 +18,6 @@
     <path d="M110 180 Q155 120 200 180 Q245 120 290 180" fill="none" stroke="#0ea5e9" stroke-width="3"/>
     <path d="M120 210 Q160 160 200 210 Q240 160 280 210" fill="none" stroke="#0ea5e9" stroke-width="2" opacity="0.6"/>
     <rect x="185" y="100" width="30" height="50" fill="none" stroke="#0ea5e9" stroke-width="2.5"/>
-  <text x="200" y="310" text-anchor="middle" fill="#0ea5e9" font-family="system-ui,sans-serif" font-size="28" font-weight="700">海港</text>
+  <text x="200" y="310" text-anchor="middle" fill="#0ea5e9" font-family="system-ui,sans-serif" font-size="28" font-weight="700">海神</text>
   <text x="200" y="340" text-anchor="middle" fill="#8b9bb4" font-family="system-ui,sans-serif" font-size="14">Harbor · 控场</text>
 </svg>

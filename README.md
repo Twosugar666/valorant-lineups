@@ -1,6 +1,6 @@
-# 瓦罗兰特点位指南（Valorant Lineups）
+# 无畏契约点位指南（Valorant Lineups）
 
-中文优先的瓦罗兰特（Valorant）地图道具点位图文站：按 **地图 → 攻/防 → 特工** 或 **特工 → 地图** 浏览，每条点位含标题、技能、难度、步骤说明，以及站位 / 准星 / 落点图示槽位。
+中文优先的无畏契约（Valorant）地图道具点位图文站：按 **地图 → 攻/防 → 英雄** 或 **英雄 → 地图** 浏览，每条点位含标题、技能、难度、步骤说明，以及站位 / 准星 / 落点图示槽位。
 
 > 非官方粉丝向内容。Valorant 及相关商标归 Riot Games 所有。
 
@@ -63,11 +63,11 @@ npm run dev
 ```
 data/
   maps.json      # 地图目录
-  agents.json    # 特工与技能
+  agents.json    # 英雄与技能
   spots.json     # 点位（核心内容）
 public/
   maps/          # 地图封面图
-  agents/        # 特工头像
+  agents/        # 英雄头像
   placeholders/  # 点位示意图（站位/准星/落点）
 src/
   app/           # 路由页面（含 /ask、/api/chat）
@@ -82,9 +82,9 @@ src/
 
 | 路径 | 说明 |
 |------|------|
-| `/` | 首页：精选点位、地图、特工 |
+| `/` | 首页：精选点位、地图、英雄 |
 | `/maps` → `/maps/[mapId]/[side]/[agentId]` | 地图浏览流 |
-| `/agents` → `/agents/[agentId]/[mapId]` | 特工浏览流 |
+| `/agents` → `/agents/[agentId]/[mapId]` | 英雄浏览流 |
 | `/spots/[spotId]` | 点位详情 |
 | `/search` | 搜索与筛选 |
 | `/ask` | DeepSeek 中文点位问答 AI |
@@ -109,7 +109,7 @@ src/
 |------|------|------|
 | `id` | string | slug |
 | `name` / `nameEn` | string | 中英文名 |
-| `role` | string | 职责（先锋/控场/哨兵等） |
+| `role` | string | 职责（先锋/控场/哨卫等） |
 | `image` | string | 头像路径 |
 | `color` | string | 主题色 |
 | `abilities` | array | `{ id, name, type }`，`type` 见下 |
@@ -120,11 +120,11 @@ src/
 
 | 字段 | 类型 | 说明 |
 |------|------|------|
-| `id` | string | 唯一 ID，建议 `地图-特工-包点-技能-攻防` |
+| `id` | string | 唯一 ID，建议 `地图-英雄-包点-技能-攻防` |
 | `title` | string | 标题 |
-| `mapId` / `agentId` | string | 关联地图、特工 |
+| `mapId` / `agentId` | string | 关联地图、英雄 |
 | `side` | `"attack"` \| `"defense"` | 进攻 / 防守 |
-| `abilityId` | string | 对应特工 skills 的 id |
+| `abilityId` | string | 对应英雄 skills 的 id |
 | `abilityType` | string | 技能类型（便于筛选） |
 | `site` | string | 包点或区域（A/B/C/中路） |
 | `difficulty` | `"easy"` \| `"medium"` \| `"hard"` | 难度 |
@@ -146,7 +146,7 @@ src/
 ```
 
 3. 把 `images` 三字段改成上述路径（也可继续用 `.svg` 占位）。
-4. 若用到新地图或新特工，先在 `maps.json` / `agents.json` 补充。
+4. 若用到新地图或新英雄，先在 `maps.json` / `agents.json` 补充。
 5. 本地 `npm run dev` 预览，确认搜索与筛选能找到该点位。
 
 ### 示例片段

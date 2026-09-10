@@ -33,7 +33,7 @@ export function SpotFilters() {
     >
       <input
         type="search"
-        placeholder="搜索点位、特工、标签…"
+        placeholder="搜索点位、英雄、标签…"
         defaultValue={params.get("q") ?? ""}
         onChange={(e) => update("q", e.target.value)}
         className={`${selectClass} xl:col-span-2`}
@@ -55,7 +55,7 @@ export function SpotFilters() {
         onChange={(e) => update("agentId", e.target.value)}
         className={selectClass}
       >
-        <option value="">全部特工</option>
+        <option value="">全部英雄</option>
         {agents.map((a) => (
           <option key={a.id} value={a.id}>
             {a.name}

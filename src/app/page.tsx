@@ -19,12 +19,12 @@ export default function HomePage() {
           VALORANT LINEUPS
         </p>
         <h1 className="max-w-2xl text-3xl font-bold leading-tight md:text-5xl md:leading-[1.15]">
-          瓦罗兰特
+          无畏契约
           <span className="text-val-red">道具点位</span>
           指南
         </h1>
         <p className="mt-5 max-w-2xl text-base leading-relaxed text-val-muted md:text-lg">
-          按地图或特工浏览进攻 / 防守技能线。每条点位含站位、准星、落点图示与逐步说明，方便开黑前速查。
+          按地图或英雄浏览进攻 / 防守技能线。每条点位含站位、准星、落点图示与逐步说明，方便开黑前速查。
         </p>
         <div className="mt-8 flex flex-wrap gap-3">
           <Link
@@ -37,7 +37,7 @@ export default function HomePage() {
             href="/agents"
             className="clip-corner border border-val-border bg-val-bg/40 px-6 py-2.5 text-sm font-semibold backdrop-blur transition hover:border-val-red"
           >
-            从特工开始
+            从英雄开始
           </Link>
           <Link
             href="/search"
@@ -59,7 +59,7 @@ export default function HomePage() {
           </span>
           <span className="stat-pill">
             <span className="h-1.5 w-1.5 rounded-full bg-val-cyan" />
-            {agents.length} 名特工
+            {agents.length} 名英雄
           </span>
           <span className="stat-pill">
             <span className="h-1.5 w-1.5 rounded-full bg-val-gold" />
@@ -98,9 +98,9 @@ export default function HomePage() {
 
       <section>
         <div className="mb-6 flex items-end justify-between">
-          <h2 className="section-title text-xl">特工</h2>
+          <h2 className="section-title text-xl">英雄</h2>
           <Link href="/agents" className="text-sm text-val-red transition hover:underline">
-            全部特工
+            全部英雄
           </Link>
         </div>
         <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6">

@@ -3,7 +3,7 @@ import Link from "next/link";
 const nav = [
   { href: "/", label: "首页" },
   { href: "/maps", label: "地图" },
-  { href: "/agents", label: "特工" },
+  { href: "/agents", label: "英雄" },
   { href: "/search", label: "搜索" },
   { href: "/ask", label: "问答 AI" },
 ];
@@ -19,7 +19,7 @@ export function Header() {
             <span className="relative h-2.5 w-2.5 bg-val-red shadow-[0_0_10px_#ff4655]" />
           </span>
           <span className="text-[15px]">
-            瓦罗兰特<span className="text-val-red">点位</span>
+            无畏契约<span className="text-val-red">点位</span>
           </span>
         </Link>
         <nav className="flex items-center gap-0.5 text-sm">

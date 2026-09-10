@@ -62,7 +62,7 @@ export default async function MapDetailPage({ params }: Props) {
       </div>
 
       <section>
-        <h2 className="section-title mb-5 text-lg">按特工筛选</h2>
+        <h2 className="section-title mb-5 text-lg">按英雄筛选</h2>
         <div className="flex flex-wrap gap-2">
           {agentIds.map((id) => {
             const agent = agents.find((a) => a.id === id);

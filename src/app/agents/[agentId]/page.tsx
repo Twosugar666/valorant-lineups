@@ -20,7 +20,7 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { agentId } = await params;
   const agent = getAgent(agentId);
-  return { title: agent ? agent.name : "特工" };
+  return { title: agent ? agent.name : "英雄" };
 }
 
 export default async function AgentDetailPage({ params }: Props) {

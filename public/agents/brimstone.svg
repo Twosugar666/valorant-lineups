@@ -19,6 +19,6 @@
     <circle cx="200" cy="170" r="40" fill="#e8a838" opacity="0.25"/>
     <circle cx="200" cy="170" r="12" fill="#e8a838"/>
     <line x1="200" y1="100" x2="200" y2="130" stroke="#e8a838" stroke-width="3"/>
-  <text x="200" y="310" text-anchor="middle" fill="#e8a838" font-family="system-ui,sans-serif" font-size="28" font-weight="700">铁臂</text>
+  <text x="200" y="310" text-anchor="middle" fill="#e8a838" font-family="system-ui,sans-serif" font-size="28" font-weight="700">炼狱</text>
   <text x="200" y="340" text-anchor="middle" fill="#8b9bb4" font-family="system-ui,sans-serif" font-size="14">Brimstone · 控场</text>
 </svg>

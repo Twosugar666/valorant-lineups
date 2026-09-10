@@ -19,7 +19,7 @@
         <rect x="200" y="120" width="90" height="120" fill="none" stroke="#f97316" stroke-width="2" opacity="0.45"/>
         <rect x="350" y="120" width="90" height="120" fill="none" stroke="#f97316" stroke-width="2" opacity="0.45"/>
   <rect x="40" y="300" width="560" height="2" fill="url(#accentFade)"/>
-  <text x="320" y="175" text-anchor="middle" fill="#f97316" font-family="system-ui,sans-serif" font-size="34" font-weight="700">分裂</text>
+  <text x="320" y="175" text-anchor="middle" fill="#f97316" font-family="system-ui,sans-serif" font-size="34" font-weight="700">霓虹町</text>
   <text x="320" y="210" text-anchor="middle" fill="#8b9bb4" font-family="system-ui,sans-serif" font-size="18">Split</text>
   <text x="320" y="240" text-anchor="middle" fill="#5a6a80" font-family="system-ui,sans-serif" font-size="12">包点 A / B</text>
 </svg>

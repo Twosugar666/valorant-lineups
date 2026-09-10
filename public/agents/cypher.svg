@@ -19,6 +19,6 @@
     <circle cx="200" cy="155" r="22" fill="#c4b5a0" opacity="0.35"/>
     <circle cx="200" cy="155" r="8" fill="#c4b5a0"/>
     <path d="M150 220 L200 250 L250 220" fill="none" stroke="#c4b5a0" stroke-width="2"/>
-  <text x="200" y="310" text-anchor="middle" fill="#c4b5a0" font-family="system-ui,sans-serif" font-size="28" font-weight="700">赛菲尔特</text>
-  <text x="200" y="340" text-anchor="middle" fill="#8b9bb4" font-family="system-ui,sans-serif" font-size="14">Cypher · 哨兵</text>
+  <text x="200" y="310" text-anchor="middle" fill="#c4b5a0" font-family="system-ui,sans-serif" font-size="28" font-weight="700">零</text>
+  <text x="200" y="340" text-anchor="middle" fill="#8b9bb4" font-family="system-ui,sans-serif" font-size="14">Cypher · 哨卫</text>
 </svg>

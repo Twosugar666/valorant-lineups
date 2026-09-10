@@ -20,6 +20,6 @@
     <circle cx="200" cy="165" r="60" fill="none" stroke="#a855f7" stroke-width="1.5" opacity="0.5"/>
     <circle cx="140" cy="130" r="5" fill="#a855f7"/><circle cx="260" cy="130" r="5" fill="#a855f7"/>
     <circle cx="150" cy="210" r="5" fill="#a855f7"/><circle cx="250" cy="210" r="5" fill="#a855f7"/>
-  <text x="200" y="310" text-anchor="middle" fill="#a855f7" font-family="system-ui,sans-serif" font-size="28" font-weight="700">星璇</text>
+  <text x="200" y="310" text-anchor="middle" fill="#a855f7" font-family="system-ui,sans-serif" font-size="28" font-weight="700">星礈</text>
   <text x="200" y="340" text-anchor="middle" fill="#8b9bb4" font-family="system-ui,sans-serif" font-size="14">Astra · 控场</text>
 </svg>

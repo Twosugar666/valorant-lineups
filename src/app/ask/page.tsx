@@ -5,7 +5,7 @@ import { ChatPanel } from "@/components/ChatPanel";
 export const metadata: Metadata = {
   title: "问答 AI",
   description:
-    "瓦罗兰特道具点位中文 AI 助手：结合本站地图、特工与点位目录，解答进攻/防守 utility lineup 问题。",
+    "无畏契约道具点位中文 AI 助手：结合本站地图、英雄与点位目录，解答进攻/防守 utility lineup 问题。",
 };
 
 export default function AskPage() {
@@ -22,7 +22,7 @@ export default function AskPage() {
           </Link>
           、
           <Link href="/agents" className="text-val-cyan hover:underline">
-            特工
+            英雄
           </Link>
           、
           <Link href="/search" className="text-val-cyan hover:underline">

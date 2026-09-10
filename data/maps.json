@@ -23,7 +23,7 @@
   },
   {
     "id": "haven",
-    "name": "天堂",
+    "name": "隐世修所",
     "nameEn": "Haven",
     "sites": [
       "A",
@@ -47,7 +47,7 @@
   },
   {
     "id": "split",
-    "name": "分裂",
+    "name": "霓虹町",
     "nameEn": "Split",
     "sites": [
       "A",
@@ -80,7 +80,7 @@
   },
   {
     "id": "bind",
-    "name": "裂变峡谷",
+    "name": "源工重镇",
     "nameEn": "Bind",
     "sites": [
       "A",

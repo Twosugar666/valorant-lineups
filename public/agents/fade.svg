@@ -19,6 +19,6 @@
     <path d="M150 220 Q200 100 250 220" fill="none" stroke="#8b5cf6" stroke-width="2" opacity="0.6"/>
     <circle cx="200" cy="180" r="18" fill="#8b5cf6" opacity="0.35"/>
     <circle cx="200" cy="180" r="6" fill="#8b5cf6"/>
-  <text x="200" y="310" text-anchor="middle" fill="#8b5cf6" font-family="system-ui,sans-serif" font-size="28" font-weight="700">菲朵</text>
+  <text x="200" y="310" text-anchor="middle" fill="#8b5cf6" font-family="system-ui,sans-serif" font-size="28" font-weight="700">黑梦</text>
   <text x="200" y="340" text-anchor="middle" fill="#8b9bb4" font-family="system-ui,sans-serif" font-size="14">Fade · 先锋</text>
 </svg>

@@ -27,7 +27,7 @@ export function buildSiteCatalog(): string {
     "【本站已收录地图】",
     mapLines,
     "",
-    "【本站已收录特工】",
+    "【本站已收录英雄】",
     agentLines,
     "",
     `【本站点位摘要（共 ${spots.length} 条；下列为精选/样例，完整列表见 /search）】`,
@@ -35,11 +35,11 @@ export function buildSiteCatalog(): string {
   ].join("\n");
 }
 
-export const SYSTEM_PROMPT = `你是「瓦罗兰特点位指南」网站的中文道具点位教练助手。
+export const SYSTEM_PROMPT = `你是「无畏契约点位指南」网站的中文道具点位教练助手。
 
 职责：
-- 用简洁、实用的中文回答关于瓦罗兰特（Valorant）地图、特工、进攻/防守道具线（lineup）的问题。
-- 优先结合本站已收录的地图、特工与点位目录作答；相关时请建议用户浏览站内页面：/maps、/agents、/spots/{spotId}、/search。
+- 用简洁、实用的中文回答关于无畏契约（Valorant）地图、英雄、进攻/防守道具线（lineup）的问题。
+- 优先结合本站已收录的地图、英雄与点位目录作答；相关时请建议用户浏览站内页面：/maps、/agents、/spots/{spotId}、/search。
 - 不确定时明确说明，不要编造精确到准星像素的虚假点位细节当作事实；可给一般思路，并引导用户查看本站图文步骤。
 - 不要编造本站不存在的点位 ID；若站内没有精确条目，请如实说明并给通用建议。
 - 回答保持简短清晰，分点列出步骤时尽量精炼。
