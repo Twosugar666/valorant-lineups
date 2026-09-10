@@ -24,11 +24,39 @@ npm run build
 npm start
 ```
 
+
+## 问答 AI（DeepSeek）
+
+站点提供中文点位问答助手，路由：`/ask`（导航「问答 AI」）。
+
+1. 复制环境变量模板并填入密钥（**切勿提交真实密钥**）：
+
+```bash
+cp .env.example .env.local
+# 编辑 .env.local：
+# DEEPSEEK_API_KEY=你的密钥
+# DEEPSEEK_MODEL=deepseek-flash
+```
+
+2. 启动开发服务器：
+
+```bash
+npm run dev
+```
+
+3. 打开 [http://localhost:3000/ask](http://localhost:3000/ask) 开始对话。
+
+说明：
+- API 仅在服务端读取 `process.env.DEEPSEEK_API_KEY`，密钥不会进入前端打包。
+- `.env` / `.env.local` / `.env*.local` 已写入 `.gitignore`，请勿把含真实密钥的文件提交到 Git。
+- 可参考 `.env.example`（仅占位符，无真实密钥）。
+
 ## 技术栈
 
 - Next.js App Router + TypeScript
 - Tailwind CSS
 - 内容为 JSON，便于增删点位
+- DeepSeek Chat Completions（`openai` SDK，`baseURL: https://api.deepseek.com`）
 
 ## 目录结构
 
@@ -42,10 +70,12 @@ public/
   agents/        # 特工头像
   placeholders/  # 点位示意图（站位/准星/落点）
 src/
-  app/           # 路由页面
-  components/    # UI 组件
+  app/           # 路由页面（含 /ask、/api/chat）
+  components/    # UI 组件（含 ChatPanel）
   lib/data.ts    # 数据读取与筛选
+  lib/ai-context.ts  # AI 系统提示与站点目录摘要
   types/         # TypeScript 类型
+.env.example     # DeepSeek 环境变量占位（勿填真实密钥入库）
 ```
 
 ### 主要路由
@@ -57,6 +87,8 @@ src/
 | `/agents` → `/agents/[agentId]/[mapId]` | 特工浏览流 |
 | `/spots/[spotId]` | 点位详情 |
 | `/search` | 搜索与筛选 |
+| `/ask` | DeepSeek 中文点位问答 AI |
+| `/api/chat` | 聊天 API（服务端流式） |
 
 ## 数据 Schema
 

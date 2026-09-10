@@ -5,6 +5,7 @@ const nav = [
   { href: "/maps", label: "地图" },
   { href: "/agents", label: "特工" },
   { href: "/search", label: "搜索" },
+  { href: "/ask", label: "问答 AI" },
 ];
 
 export function Header() {
