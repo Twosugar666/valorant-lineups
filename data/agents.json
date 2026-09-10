@@ -1,0 +1,80 @@
+[
+  {
+    "id": "sova",
+    "name": "索瓦",
+    "nameEn": "Sova",
+    "role": "先锋",
+    "image": "/agents/sova.svg",
+    "color": "#3d7eff",
+    "abilities": [
+      { "id": "recon", "name": "侦察箭头", "type": "recon" },
+      { "id": "shock", "name": "震荡箭", "type": "molly" },
+      { "id": "drone", "name": "Owl 无人机", "type": "recon" }
+    ]
+  },
+  {
+    "id": "viper",
+    "name": "蝰蛇",
+    "nameEn": "Viper",
+    "role": "控场",
+    "image": "/agents/viper.svg",
+    "color": "#30c78a",
+    "abilities": [
+      { "id": "poison-cloud", "name": "毒云", "type": "smoke" },
+      { "id": "snake-bite", "name": "蛇咬", "type": "molly" },
+      { "id": "toxic-screen", "name": "毒幕", "type": "wall" }
+    ]
+  },
+  {
+    "id": "brimstone",
+    "name": "铁臂",
+    "nameEn": "Brimstone",
+    "role": "控场",
+    "image": "/agents/brimstone.svg",
+    "color": "#e8a838",
+    "abilities": [
+      { "id": "sky-smoke", "name": "天空烟雾", "type": "smoke" },
+      { "id": "incendiary", "name": "燃烧弹", "type": "molly" },
+      { "id": "stim", "name": "激励信标", "type": "other" }
+    ]
+  },
+  {
+    "id": "killjoy",
+    "name": "零",
+    "nameEn": "Killjoy",
+    "role": "哨兵",
+    "image": "/agents/killjoy.svg",
+    "color": "#f0d84a",
+    "abilities": [
+      { "id": "nanoswarm", "name": "纳米群", "type": "molly" },
+      { "id": "alarmbot", "name": "报警机器人", "type": "trap" },
+      { "id": "turret", "name": "炮台", "type": "trap" }
+    ]
+  },
+  {
+    "id": "fade",
+    "name": "菲朵",
+    "nameEn": "Fade",
+    "role": "先锋",
+    "image": "/agents/fade.svg",
+    "color": "#8b5cf6",
+    "abilities": [
+      { "id": "haunt", "name": "萦绕", "type": "recon" },
+      { "id": "seize", "name": "捕获", "type": "other" },
+      { "id": "prowler", "name": "潜行者", "type": "recon" }
+    ]
+  },
+  {
+    "id": "cypher",
+    "name": "赛菲尔特",
+    "nameEn": "Cypher",
+    "role": "哨兵",
+    "image": "/agents/cypher.svg",
+    "color": "#c4b5a0",
+    "abilities": [
+      { "id": "cage", "name": "陷阱牢笼", "type": "smoke" },
+      { "id": "spycam", "name": "间谍摄像头", "type": "recon" },
+      { "id": "tripwire", "name": "陷阱线", "type": "trap" }
+    ]
+  }
+]

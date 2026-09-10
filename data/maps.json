@@ -1,0 +1,34 @@
+[
+  {
+    "id": "bind",
+    "name": "裂变峡谷",
+    "nameEn": "Bind",
+    "sites": ["A", "B"],
+    "image": "/maps/bind.svg",
+    "description": "双传送门连接 A/B，无中路，攻防节奏独特。"
+  },
+  {
+    "id": "haven",
+    "name": "天堂",
+    "nameEn": "Haven",
+    "sites": ["A", "B", "C"],
+    "image": "/maps/haven.svg",
+    "description": "三点图，防守需灵活轮换，道具点位极多。"
+  },
+  {
+    "id": "ascent",
+    "name": "亚海悬城",
+    "nameEn": "Ascent",
+    "sites": ["A", "B"],
+    "image": "/maps/ascent.svg",
+    "description": "中路开阔，门可开关，经典竞技地图。"
+  },
+  {
+    "id": "split",
+    "name": "分裂",
+    "nameEn": "Split",
+    "sites": ["A", "B"],
+    "image": "/maps/split.svg",
+    "description": "垂直空间丰富，天台与绳索决定控图节奏。"
+  }
+]

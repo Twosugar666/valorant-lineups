@@ -1,0 +1,23 @@
+import type { Metadata } from "next";
+import { maps } from "@/lib/data";
+import { MapCard } from "@/components/MapCard";
+
+export const metadata: Metadata = { title: "地图" };
+
+export default function MapsPage() {
+  return (
+    <div className="space-y-6">
+      <div>
+        <h1 className="text-2xl font-bold">地图</h1>
+        <p className="mt-1 text-val-muted">
+          选择地图 → 进攻/防守 → 特工 → 查看点位列表
+        </p>
+      </div>
+      <div className="grid gap-4 sm:grid-cols-2">
+        {maps.map((map) => (
+          <MapCard key={map.id} map={map} />
+        ))}
+      </div>
+    </div>
+  );
+}

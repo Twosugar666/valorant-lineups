@@ -1,0 +1,422 @@
+[
+  {
+    "id": "ascent-sova-a-recon-attack",
+    "title": "A 包点侦察箭（进攻）",
+    "mapId": "ascent",
+    "agentId": "sova",
+    "side": "attack",
+    "abilityId": "recon",
+    "abilityType": "recon",
+    "site": "A",
+    "difficulty": "easy",
+    "tags": ["默认", "开局", "信息"],
+    "description": "从 A 主路入口抛出侦察箭，扫清包点与天堂常见蹲位，适合默认推进前获取信息。",
+    "steps": [
+      { "order": 1, "text": "站在 A 主路入口左侧墙边，背靠外墙。", "tip": "脚尖对齐地砖接缝。" },
+      { "order": 2, "text": "准星对准对面建筑屋顶左侧烟囱边缘。", "tip": "一跳一充。" },
+      { "order": 3, "text": "按下跳跃的同时松开鼠标左键放出箭头。" },
+      { "order": 4, "text": "箭头会落在 A 包点中央偏后，扫描天堂与后点。" }
+    ],
+    "images": {
+      "position": "/placeholders/ascent-sova-a-recon-attack-position.svg",
+      "crosshair": "/placeholders/ascent-sova-a-recon-attack-crosshair.svg",
+      "landing": "/placeholders/ascent-sova-a-recon-attack-landing.svg"
+    },
+    "featured": true
+  },
+  {
+    "id": "ascent-sova-b-shock-attack",
+    "title": "B 绿区震荡清点",
+    "mapId": "ascent",
+    "agentId": "sova",
+    "side": "attack",
+    "abilityId": "shock",
+    "abilityType": "molly",
+    "site": "B",
+    "difficulty": "medium",
+    "tags": ["清点", "绿区", "爆发"],
+    "description": "进攻 B 时用震荡箭清理绿区与包点角落，逼出防守方。",
+    "steps": [
+      { "order": 1, "text": "从中路靠近 B 主入口，站在门框右侧。" },
+      { "order": 2, "text": "准星瞄向绿区上方横梁右侧缺口，两充不跳。" },
+      { "order": 3, "text": "放出后箭头落入绿区，伤害覆盖常见蹲点。" }
+    ],
+    "images": {
+      "position": "/placeholders/ascent-sova-b-shock-attack-position.svg",
+      "crosshair": "/placeholders/ascent-sova-b-shock-attack-crosshair.svg",
+      "landing": "/placeholders/ascent-sova-b-shock-attack-landing.svg"
+    }
+  },
+  {
+    "id": "ascent-kj-a-nano-defense",
+    "title": "A 包点后置纳米群",
+    "mapId": "ascent",
+    "agentId": "killjoy",
+    "side": "defense",
+    "abilityId": "nanoswarm",
+    "abilityType": "molly",
+    "site": "A",
+    "difficulty": "easy",
+    "tags": ["后置", "保包", "延迟"],
+    "description": "防守 A 时将纳米群藏在包点后墙，敌方下包或拆包时引爆。",
+    "steps": [
+      { "order": 1, "text": "站在 A 天堂楼梯口，面向包点。" },
+      { "order": 2, "text": "将纳米群扔到包点后方木箱与墙角夹缝。", "tip": "尽量贴墙，避免被提前发现。" },
+      { "order": 3, "text": "听到下包或拆包音效后立即激活。" }
+    ],
+    "images": {
+      "position": "/placeholders/ascent-kj-a-nano-defense-position.svg",
+      "crosshair": "/placeholders/ascent-kj-a-nano-defense-crosshair.svg",
+      "landing": "/placeholders/ascent-kj-a-nano-defense-landing.svg"
+    },
+    "featured": true
+  },
+  {
+    "id": "ascent-brim-mid-smoke-attack",
+    "title": "中路猫道烟（进攻）",
+    "mapId": "ascent",
+    "agentId": "brimstone",
+    "side": "attack",
+    "abilityId": "sky-smoke",
+    "abilityType": "smoke",
+    "site": "中路",
+    "difficulty": "easy",
+    "tags": ["控中", "默认", "烟"],
+    "description": "用天空烟雾封住中路猫道视野，方便队友过中或转点。",
+    "steps": [
+      { "order": 1, "text": "打开铁臂地图技能界面。" },
+      { "order": 2, "text": "在中路猫道出口位置放置烟雾标记。" },
+      { "order": 3, "text": "确认队友准备过中后放出烟雾。" }
+    ],
+    "images": {
+      "position": "/placeholders/ascent-brim-mid-smoke-attack-position.svg",
+      "crosshair": "/placeholders/ascent-brim-mid-smoke-attack-crosshair.svg",
+      "landing": "/placeholders/ascent-brim-mid-smoke-attack-landing.svg"
+    }
+  },
+  {
+    "id": "bind-viper-a-screen-attack",
+    "title": "A 短道毒幕推进",
+    "mapId": "bind",
+    "agentId": "viper",
+    "side": "attack",
+    "abilityId": "toxic-screen",
+    "abilityType": "wall",
+    "site": "A",
+    "difficulty": "medium",
+    "tags": ["墙", "A短", "执行"],
+    "description": "从 A 短放出毒幕，隔断灯位与包点视线，配合队友强攻 A。",
+    "steps": [
+      { "order": 1, "text": "站在 A 短入口外侧，面向灯位方向。" },
+      { "order": 2, "text": "毒幕从墙外拉到包点内侧，覆盖灯位与天堂视野。", "tip": "墙落地后再开毒，节省毒条。" },
+      { "order": 3, "text": "队友跟随毒幕内侧推进，你负责补烟或蛇咬。" }
+    ],
+    "images": {
+      "position": "/placeholders/bind-viper-a-screen-attack-position.svg",
+      "crosshair": "/placeholders/bind-viper-a-screen-attack-crosshair.svg",
+      "landing": "/placeholders/bind-viper-a-screen-attack-landing.svg"
+    },
+    "featured": true
+  },
+  {
+    "id": "bind-viper-b-molly-defense",
+    "title": "B 窗蛇咬保包",
+    "mapId": "bind",
+    "agentId": "viper",
+    "side": "defense",
+    "abilityId": "snake-bite",
+    "abilityType": "molly",
+    "site": "B",
+    "difficulty": "easy",
+    "tags": ["保包", "窗", "延迟"],
+    "description": "防守 B 时从窗或钩子位扔蛇咬覆盖包点，拖延拆包。",
+    "steps": [
+      { "order": 1, "text": "站在 B 窗外侧安全位置。" },
+      { "order": 2, "text": "准星对准包点中心地面，扔出蛇咬。", "tip": "可预瞄包点标记位置。" },
+      { "order": 3, "text": "配合队友交叉火力，逼迫进攻方离开包点。" }
+    ],
+    "images": {
+      "position": "/placeholders/bind-viper-b-molly-defense-position.svg",
+      "crosshair": "/placeholders/bind-viper-b-molly-defense-crosshair.svg",
+      "landing": "/placeholders/bind-viper-b-molly-defense-landing.svg"
+    }
+  },
+  {
+    "id": "bind-brim-a-smoke-attack",
+    "title": "A 灯位+天堂双烟",
+    "mapId": "bind",
+    "agentId": "brimstone",
+    "side": "attack",
+    "abilityId": "sky-smoke",
+    "abilityType": "smoke",
+    "site": "A",
+    "difficulty": "easy",
+    "tags": ["执行", "双烟", "默认"],
+    "description": "进攻 A 时同时封灯位与天堂，减少被交叉火力。",
+    "steps": [
+      { "order": 1, "text": "开局或转 A 前打开烟雾地图。" },
+      { "order": 2, "text": "一颗烟放灯位拐角，一颗放天堂楼梯口。" },
+      { "order": 3, "text": "烟雾落下后队友从短道或浴场推进。" }
+    ],
+    "images": {
+      "position": "/placeholders/bind-brim-a-smoke-attack-position.svg",
+      "crosshair": "/placeholders/bind-brim-a-smoke-attack-crosshair.svg",
+      "landing": "/placeholders/bind-brim-a-smoke-attack-landing.svg"
+    }
+  },
+  {
+    "id": "bind-cypher-b-cam-defense",
+    "title": "B 厅摄像头信息位",
+    "mapId": "bind",
+    "agentId": "cypher",
+    "side": "defense",
+    "abilityId": "spycam",
+    "abilityType": "recon",
+    "site": "B",
+    "difficulty": "medium",
+    "tags": ["信息", "摄像头", "默认"],
+    "description": "将摄像头安在 B 厅高处，监控进攻方从钩子与大厅的进入。",
+    "steps": [
+      { "order": 1, "text": "站在 B 包点内侧，面向大厅。" },
+      { "order": 2, "text": "把摄像头贴在大厅入口上方横梁或高墙。", "tip": "避免贴太低被轻易破坏。" },
+      { "order": 3, "text": "回合中切摄像头观察，发现推进及时呼叫队友。" }
+    ],
+    "images": {
+      "position": "/placeholders/bind-cypher-b-cam-defense-position.svg",
+      "crosshair": "/placeholders/bind-cypher-b-cam-defense-crosshair.svg",
+      "landing": "/placeholders/bind-cypher-b-cam-defense-landing.svg"
+    }
+  },
+  {
+    "id": "haven-sova-c-recon-attack",
+    "title": "C 长廊侦察箭",
+    "mapId": "haven",
+    "agentId": "sova",
+    "side": "attack",
+    "abilityId": "recon",
+    "abilityType": "recon",
+    "site": "C",
+    "difficulty": "medium",
+    "tags": ["C长", "信息", "开局"],
+    "description": "从 C 长抛侦察箭扫描车库与包点，适合 C 执行前确认人数。",
+    "steps": [
+      { "order": 1, "text": "站在 C 长入口右侧箱子旁。" },
+      { "order": 2, "text": "准星对准车库上方屋檐缺口，两充一跳。", "tip": "练习时记住准星相对建筑线的位置。" },
+      { "order": 3, "text": "箭头弹入 C 包点，扫描后点与车库连接位。" }
+    ],
+    "images": {
+      "position": "/placeholders/haven-sova-c-recon-attack-position.svg",
+      "crosshair": "/placeholders/haven-sova-c-recon-attack-crosshair.svg",
+      "landing": "/placeholders/haven-sova-c-recon-attack-landing.svg"
+    },
+    "featured": true
+  },
+  {
+    "id": "haven-fade-a-haunt-attack",
+    "title": "A 点萦绕探点",
+    "mapId": "haven",
+    "agentId": "fade",
+    "side": "attack",
+    "abilityId": "haunt",
+    "abilityType": "recon",
+    "site": "A",
+    "difficulty": "easy",
+    "tags": ["探点", "A短", "信息"],
+    "description": "进攻 A 时用萦绕标记天堂与包点敌人，为队友提供击杀线。",
+    "steps": [
+      { "order": 1, "text": "从 A 短或庭院靠近入口。" },
+      { "order": 2, "text": "将萦绕扔向包点天空，落地后扩散标记敌人。" },
+      { "order": 3, "text": "根据标记位置选择强攻或转点。" }
+    ],
+    "images": {
+      "position": "/placeholders/haven-fade-a-haunt-attack-position.svg",
+      "crosshair": "/placeholders/haven-fade-a-haunt-attack-crosshair.svg",
+      "landing": "/placeholders/haven-fade-a-haunt-attack-landing.svg"
+    }
+  },
+  {
+    "id": "haven-kj-c-nano-defense",
+    "title": "C 包点纳米群夹角",
+    "mapId": "haven",
+    "agentId": "killjoy",
+    "side": "defense",
+    "abilityId": "nanoswarm",
+    "abilityType": "molly",
+    "site": "C",
+    "difficulty": "easy",
+    "tags": ["保包", "后置", "车库"],
+    "description": "纳米群藏在 C 包点箱后，拖延拆包并配合回防。",
+    "steps": [
+      { "order": 1, "text": "开局将纳米群放在包点后方箱角。" },
+      { "order": 2, "text": "另一颗可放在车库入口内侧。" },
+      { "order": 3, "text": "听到下包后激活，给回防争取时间。" }
+    ],
+    "images": {
+      "position": "/placeholders/haven-kj-c-nano-defense-position.svg",
+      "crosshair": "/placeholders/haven-kj-c-nano-defense-crosshair.svg",
+      "landing": "/placeholders/haven-kj-c-nano-defense-landing.svg"
+    }
+  },
+  {
+    "id": "haven-cypher-b-trip-defense",
+    "title": "B 窗陷阱线",
+    "mapId": "haven",
+    "agentId": "cypher",
+    "side": "defense",
+    "abilityId": "tripwire",
+    "abilityType": "trap",
+    "site": "B",
+    "difficulty": "easy",
+    "tags": ["陷阱", "窗", "信息"],
+    "description": "在 B 窗两侧拉陷阱线，预警从中路窗翻入的敌人。",
+    "steps": [
+      { "order": 1, "text": "站在 B 包点，面向中路窗。" },
+      { "order": 2, "text": "陷阱线一端贴窗框，另一端贴侧墙，高度约腰部。", "tip": "不要贴太高，否则可能被跳过。" },
+      { "order": 3, "text": "触发后立即观察并呼叫队友补枪。" }
+    ],
+    "images": {
+      "position": "/placeholders/haven-cypher-b-trip-defense-position.svg",
+      "crosshair": "/placeholders/haven-cypher-b-trip-defense-crosshair.svg",
+      "landing": "/placeholders/haven-cypher-b-trip-defense-landing.svg"
+    }
+  },
+  {
+    "id": "split-sova-a-recon-attack",
+    "title": "A 主路侦察箭",
+    "mapId": "split",
+    "agentId": "sova",
+    "side": "attack",
+    "abilityId": "recon",
+    "abilityType": "recon",
+    "site": "A",
+    "difficulty": "medium",
+    "tags": ["A主", "信息", "天堂"],
+    "description": "从 A 主抛出侦察箭，扫描天堂与包点常见防守位。",
+    "steps": [
+      { "order": 1, "text": "站在 A 主入口左侧墙根。" },
+      { "order": 2, "text": "准星对准前方楼顶天线左侧，一充一跳。" },
+      { "order": 3, "text": "箭头落入 A 包点，覆盖天堂与后点。" }
+    ],
+    "images": {
+      "position": "/placeholders/split-sova-a-recon-attack-position.svg",
+      "crosshair": "/placeholders/split-sova-a-recon-attack-crosshair.svg",
+      "landing": "/placeholders/split-sova-a-recon-attack-landing.svg"
+    }
+  },
+  {
+    "id": "split-viper-b-screen-attack",
+    "title": "B 主毒幕隔断",
+    "mapId": "split",
+    "agentId": "viper",
+    "side": "attack",
+    "abilityId": "toxic-screen",
+    "abilityType": "wall",
+    "site": "B",
+    "difficulty": "medium",
+    "tags": ["墙", "B主", "执行"],
+    "description": "毒幕从 B 主拉到包点，隔断天台与后点视线。",
+    "steps": [
+      { "order": 1, "text": "站在 B 主外侧安全区。" },
+      { "order": 2, "text": "毒幕横跨 B 主到包点左侧墙。" },
+      { "order": 3, "text": "开启毒幕后队友沿墙内侧推进下包。" }
+    ],
+    "images": {
+      "position": "/placeholders/split-viper-b-screen-attack-position.svg",
+      "crosshair": "/placeholders/split-viper-b-screen-attack-crosshair.svg",
+      "landing": "/placeholders/split-viper-b-screen-attack-landing.svg"
+    },
+    "featured": true
+  },
+  {
+    "id": "split-kj-a-turret-defense",
+    "title": "A 天堂炮台",
+    "mapId": "split",
+    "agentId": "killjoy",
+    "side": "defense",
+    "abilityId": "turret",
+    "abilityType": "trap",
+    "site": "A",
+    "difficulty": "easy",
+    "tags": ["炮台", "天堂", "信息"],
+    "description": "炮台放在 A 天堂，监控主路与斜坡推进。",
+    "steps": [
+      { "order": 1, "text": "开局上天堂，将炮台朝向 A 主与斜坡交汇处。" },
+      { "order": 2, "text": "自己可守后点或辅助 B，炮台提供预警。" },
+      { "order": 3, "text": "炮台被破坏说明敌人正在强攻 A，立即回防。" }
+    ],
+    "images": {
+      "position": "/placeholders/split-kj-a-turret-defense-position.svg",
+      "crosshair": "/placeholders/split-kj-a-turret-defense-crosshair.svg",
+      "landing": "/placeholders/split-kj-a-turret-defense-landing.svg"
+    }
+  },
+  {
+    "id": "split-fade-mid-prowler-attack",
+    "title": "中路潜行者探人",
+    "mapId": "split",
+    "agentId": "fade",
+    "side": "attack",
+    "abilityId": "prowler",
+    "abilityType": "recon",
+    "site": "中路",
+    "difficulty": "easy",
+    "tags": ["控中", "潜行者", "默认"],
+    "description": "用潜行者清理中路与天台角度，降低被 Peg 的风险。",
+    "steps": [
+      { "order": 1, "text": "站在中路进攻方出生侧入口。" },
+      { "order": 2, "text": "放出潜行者朝中路天台方向前进。" },
+      { "order": 3, "text": "发现敌人后队友跟枪，或选择转 A/B。" }
+    ],
+    "images": {
+      "position": "/placeholders/split-fade-mid-prowler-attack-position.svg",
+      "crosshair": "/placeholders/split-fade-mid-prowler-attack-crosshair.svg",
+      "landing": "/placeholders/split-fade-mid-prowler-attack-landing.svg"
+    }
+  },
+  {
+    "id": "ascent-cypher-b-cage-defense",
+    "title": "B 主牢笼减速",
+    "mapId": "ascent",
+    "agentId": "cypher",
+    "side": "defense",
+    "abilityId": "cage",
+    "abilityType": "smoke",
+    "site": "B",
+    "difficulty": "easy",
+    "tags": ["牢笼", "减速", "回防"],
+    "description": "牢笼预放在 B 主入口，进攻方推进时激活遮挡与减速。",
+    "steps": [
+      { "order": 1, "text": "开局将牢笼扔在 B 主入口内侧地面。" },
+      { "order": 2, "text": "听到脚步或无人机后激活牢笼。" },
+      { "order": 3, "text": "利用牢笼边缘 peek，或拖延等待队友回防。" }
+    ],
+    "images": {
+      "position": "/placeholders/ascent-cypher-b-cage-defense-position.svg",
+      "crosshair": "/placeholders/ascent-cypher-b-cage-defense-crosshair.svg",
+      "landing": "/placeholders/ascent-cypher-b-cage-defense-landing.svg"
+    }
+  },
+  {
+    "id": "bind-fade-a-seize-attack",
+    "title": "A 短捕获拉人",
+    "mapId": "bind",
+    "agentId": "fade",
+    "side": "attack",
+    "abilityId": "seize",
+    "abilityType": "other",
+    "site": "A",
+    "difficulty": "hard",
+    "tags": ["捕获", "拉人", "配合"],
+    "description": "进攻 A 短时用捕获困住灯位或包点敌人，方便队友集火。",
+    "steps": [
+      { "order": 1, "text": "队友先用烟封天堂，你站在 A 短外侧。" },
+      { "order": 2, "text": "将捕获扔向灯位角落或包点入口。", "tip": "提前沟通，避免误伤自己人走位。" },
+      { "order": 3, "text": "捕获生效后全队集火被困目标。" }
+    ],
+    "images": {
+      "position": "/placeholders/bind-fade-a-seize-attack-position.svg",
+      "crosshair": "/placeholders/bind-fade-a-seize-attack-crosshair.svg",
+      "landing": "/placeholders/bind-fade-a-seize-attack-landing.svg"
+    }
+  }
+]
