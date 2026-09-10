@@ -3,90 +3,143 @@
     "id": "abyss",
     "name": "幽邃地窟",
     "nameEn": "Abyss",
-    "sites": [
-      "A",
-      "B"
-    ],
-    "image": "/maps/abyss.svg",
-    "description": "无边界深渊图，滑索与悬崖决定走位，道具可逼人落崖。"
+    "sites": ["A", "B"],
+    "image": "/maps/abyss/cover.png",
+    "description": "无边界深渊图，滑索与悬崖决定走位，道具可逼人落崖。",
+    "inPool": true,
+    "source": "无畏契约官网",
+    "officialCoverUrl": "https://game.gtimg.cn/images/val/agamezlk/map/abyss/cover.PNG"
   },
   {
     "id": "ascent",
     "name": "亚海悬城",
     "nameEn": "Ascent",
-    "sites": [
-      "A",
-      "B"
-    ],
-    "image": "/maps/ascent.svg",
-    "description": "中路开阔，门可开关，经典竞技地图。"
+    "sites": ["A", "B"],
+    "image": "/maps/ascent/cover.png",
+    "description": "中路开阔，门可开关，经典竞技地图。",
+    "inPool": true,
+    "source": "无畏契约官网",
+    "officialCoverUrl": "https://game.gtimg.cn/images/val/agamezlk/map/ascent/cover.PNG"
   },
   {
     "id": "haven",
     "name": "隐世修所",
     "nameEn": "Haven",
-    "sites": [
-      "A",
-      "B",
-      "C"
-    ],
-    "image": "/maps/haven.svg",
-    "description": "三点图，防守需灵活轮换，道具点位极多。"
+    "sites": ["A", "B", "C"],
+    "image": "/maps/haven/cover.png",
+    "description": "三点图，防守需灵活轮换，道具点位极多。",
+    "inPool": true,
+    "source": "无畏契约官网",
+    "officialCoverUrl": "https://game.gtimg.cn/images/val/agamezlk/map/haven/cover.PNG"
   },
   {
     "id": "lotus",
     "name": "莲华古城",
     "nameEn": "Lotus",
-    "sites": [
-      "A",
-      "B",
-      "C"
-    ],
-    "image": "/maps/lotus.svg",
-    "description": "三包点与旋转门，侧路偷袭与转点节奏独特。"
+    "sites": ["A", "B", "C"],
+    "image": "/maps/lotus/cover.png",
+    "description": "三包点与旋转门，侧路偷袭与转点节奏独特。",
+    "inPool": true,
+    "source": "无畏契约官网",
+    "officialCoverUrl": "https://game.gtimg.cn/images/val/agamezlk/map/lotus/cover.PNG"
   },
   {
     "id": "split",
     "name": "霓虹町",
     "nameEn": "Split",
-    "sites": [
-      "A",
-      "B"
-    ],
-    "image": "/maps/split.svg",
-    "description": "垂直空间丰富，天台与绳索决定控图节奏。"
+    "sites": ["A", "B"],
+    "image": "/maps/split/cover.png",
+    "description": "垂直空间丰富，天台与绳索决定控图节奏。",
+    "inPool": true,
+    "source": "无畏契约官网",
+    "officialCoverUrl": "https://game.gtimg.cn/images/val/agamezlk/map/split/cover.PNG"
   },
   {
     "id": "summit",
     "name": "天枢云阙",
     "nameEn": "Summit",
-    "sites": [
-      "A",
-      "B"
-    ],
-    "image": "/maps/summit.svg",
-    "description": "三路结构与下落门机关，控门与高低差是关键。"
+    "sites": ["A", "B"],
+    "image": "/maps/summit/cover.png",
+    "description": "三路结构与下落门机关，控门与高低差是关键。",
+    "inPool": true,
+    "source": "无畏契约官网",
+    "officialCoverUrl": "https://game.gtimg.cn/images/val/agamezlk/map/summit/cover.PNG"
   },
   {
     "id": "sunset",
     "name": "日落之城",
     "nameEn": "Sunset",
-    "sites": [
-      "A",
-      "B"
-    ],
-    "image": "/maps/sunset.svg",
-    "description": "城市巷战，中路与侧街交织，执行烟墙要求清晰。"
+    "sites": ["A", "B"],
+    "image": "/maps/sunset/cover.png",
+    "description": "城市巷战，中路与侧街交织，执行烟墙要求清晰。",
+    "inPool": true,
+    "source": "无畏契约官网",
+    "officialCoverUrl": "https://game.gtimg.cn/images/val/agamezlk/map/sunset/cover.PNG"
   },
   {
     "id": "bind",
     "name": "源工重镇",
     "nameEn": "Bind",
-    "sites": [
-      "A",
-      "B"
-    ],
-    "image": "/maps/bind.svg",
-    "description": "双传送门连接 A/B，无中路，适合练习与娱乐排位。"
+    "sites": ["A", "B"],
+    "image": "/maps/bind/cover.png",
+    "description": "双传送门连接 A/B，无中路，适合练习与娱乐排位。",
+    "inPool": false,
+    "source": "无畏契约官网",
+    "officialCoverUrl": "https://game.gtimg.cn/images/val/agamezlk/map/bind/cover.PNG"
+  },
+  {
+    "id": "icebox",
+    "name": "森寒冬港",
+    "nameEn": "Icebox",
+    "sites": ["A", "B"],
+    "image": "/maps/icebox/cover.png",
+    "description": "垂直与集装箱高低差显著，天桥与拉链绳改变走位。",
+    "inPool": false,
+    "source": "无畏契约官网",
+    "officialCoverUrl": "https://game.gtimg.cn/images/val/agamezlk/map/icebox/cover.PNG"
+  },
+  {
+    "id": "breeze",
+    "name": "微风岛屿",
+    "nameEn": "Breeze",
+    "sites": ["A", "B"],
+    "image": "/maps/breeze/cover.png",
+    "description": "开阔大图，远距离对枪与中路大厅是核心节奏。",
+    "inPool": false,
+    "source": "无畏契约官网",
+    "officialCoverUrl": "https://game.gtimg.cn/images/val/agamezlk/map/breeze/cover.PNG"
+  },
+  {
+    "id": "fracture",
+    "name": "裂变峡谷",
+    "nameEn": "Fracture",
+    "sites": ["A", "B"],
+    "image": "/maps/fracture/cover.png",
+    "description": "攻方两侧出生，拉链绳与双线夹击带来独特开局。",
+    "inPool": false,
+    "source": "无畏契约官网",
+    "officialCoverUrl": "https://game.gtimg.cn/images/val/agamezlk/map/fracture/cover.PNG"
+  },
+  {
+    "id": "pearl",
+    "name": "深海明珠",
+    "nameEn": "Pearl",
+    "sites": ["A", "B"],
+    "image": "/maps/pearl/cover.png",
+    "description": "水下城市三路结构，中路与侧街转点节奏清晰。",
+    "inPool": false,
+    "source": "无畏契约官网",
+    "officialCoverUrl": "https://game.gtimg.cn/images/val/agamezlk/map/pearl/cover.PNG"
+  },
+  {
+    "id": "corrode",
+    "name": "盐海矿镇",
+    "nameEn": "Corrode",
+    "sites": ["A", "B"],
+    "image": "/maps/corrode/cover.png",
+    "description": "盐海矿区工业布局，高低差与狭窄通道适合道具博弈。",
+    "inPool": false,
+    "source": "无畏契约官网",
+    "officialCoverUrl": "https://game.gtimg.cn/images/val/agamezlk/map/corrode/cover.PNG"
   }
 ]

@@ -90,7 +90,7 @@ export default function HomePage() {
           </Link>
         </div>
         <div className="grid gap-4 sm:grid-cols-2">
-          {maps.map((map) => (
+          {maps.filter((m) => m.inPool).map((map) => (
             <MapCard key={map.id} map={map} />
           ))}
         </div>

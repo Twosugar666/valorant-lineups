@@ -16,6 +16,9 @@ export interface MapInfo {
   sites: string[];
   image: string;
   description: string;
+  inPool?: boolean;
+  source?: string;
+  officialCoverUrl?: string;
 }
 
 export interface AgentInfo {

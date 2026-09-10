@@ -15,8 +15,20 @@ export function MapCard({ map }: { map: MapInfo }) {
           fill
           className="object-cover opacity-90 transition duration-500 group-hover:scale-105 group-hover:opacity-100"
           sizes="(max-width:768px) 100vw, 33vw"
+          priority={map.inPool === true}
         />
         <div className="absolute inset-0 bg-gradient-to-t from-val-bg via-val-bg/40 to-transparent" />
+        <div className="absolute left-3 top-3 flex gap-2">
+          {map.inPool ? (
+            <span className="rounded-full border border-val-cyan/40 bg-val-bg/75 px-2.5 py-0.5 text-[10px] font-semibold tracking-wider text-val-cyan backdrop-blur">
+              竞技池
+            </span>
+          ) : (
+            <span className="rounded-full border border-val-border bg-val-bg/75 px-2.5 py-0.5 text-[10px] font-semibold tracking-wider text-val-muted backdrop-blur">
+              图库
+            </span>
+          )}
+        </div>
         <div className="absolute inset-x-0 bottom-0 p-4">
           <h3 className="text-lg font-bold tracking-wide">{map.name}</h3>
           <p className="text-sm text-val-muted">{map.nameEn}</p>
