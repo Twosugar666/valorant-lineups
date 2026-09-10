@@ -1,7 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
-  <rect width="400" height="400" fill="#0f1923"/>
-  <circle cx="200" cy="160" r="70" fill="none" stroke="#3b82f6" stroke-width="4"/>
-  <circle cx="200" cy="160" r="40" fill="#3b82f6" opacity="0.3"/>
-  <text x="200" y="280" text-anchor="middle" fill="#3b82f6" font-family="system-ui,sans-serif" font-size="32" font-weight="700">夜露</text>
-  <text x="200" y="320" text-anchor="middle" fill="#8b9bb4" font-family="system-ui,sans-serif" font-size="16">Yoru · 决斗</text>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a1118"/>
+      <stop offset="100%" stop-color="#141e2a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="rgba(59,130,246,0.28)"/>
+      <stop offset="100%" stop-color="rgba(59,130,246,0)"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg)"/>
+  <rect width="400" height="400" fill="url(#glow)"/>
+  <rect x="18" y="18" width="364" height="364" fill="none" stroke="rgba(59,130,246,0.35)" stroke-width="1.5"/>
+  <polygon points="382,18 382,48 352,18" fill="#3b82f6" opacity="0.85"/>
+  
+    <path d="M130 140 L200 90 L270 140 L240 240 L160 240 Z" fill="none" stroke="#3b82f6" stroke-width="3"/>
+    <path d="M170 150 L200 120 L230 150 L215 200 L185 200 Z" fill="#3b82f6" opacity="0.3"/>
+    <circle cx="185" cy="155" r="5" fill="#3b82f6"/><circle cx="215" cy="155" r="5" fill="#3b82f6"/>
+  <text x="200" y="310" text-anchor="middle" fill="#3b82f6" font-family="system-ui,sans-serif" font-size="28" font-weight="700">夜露</text>
+  <text x="200" y="340" text-anchor="middle" fill="#8b9bb4" font-family="system-ui,sans-serif" font-size="14">Yoru · 决斗</text>
 </svg>

@@ -1,29 +1,35 @@
-import Image from "next/image";
 import Link from "next/link";
 import type { MapInfo } from "@/types";
+import { SmartImage } from "./SmartImage";
 
 export function MapCard({ map }: { map: MapInfo }) {
   return (
     <Link
       href={`/maps/${map.id}`}
-      className="card-hover clip-corner group block overflow-hidden border border-val-border bg-val-card"
+      className="card-hover glass-card group block overflow-hidden"
     >
-      <div className="relative aspect-[16/9] bg-val-elevated">
-        <Image
+      <div className="relative aspect-[16/9] overflow-hidden bg-val-elevated">
+        <SmartImage
           src={map.image}
           alt={map.name}
           fill
-          className="object-cover opacity-90 transition group-hover:opacity-100"
+          className="object-cover opacity-90 transition duration-500 group-hover:scale-105 group-hover:opacity-100"
           sizes="(max-width:768px) 100vw, 33vw"
         />
-        <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-val-bg to-transparent p-4 pt-12">
-          <h3 className="text-lg font-bold">{map.name}</h3>
+        <div className="absolute inset-0 bg-gradient-to-t from-val-bg via-val-bg/40 to-transparent" />
+        <div className="absolute inset-x-0 bottom-0 p-4">
+          <h3 className="text-lg font-bold tracking-wide">{map.name}</h3>
           <p className="text-sm text-val-muted">{map.nameEn}</p>
+        </div>
+        <div className="absolute right-3 top-3 rounded-full border border-val-red/40 bg-val-bg/70 px-2.5 py-0.5 text-[10px] font-semibold uppercase tracking-wider text-val-red opacity-0 backdrop-blur transition group-hover:opacity-100">
+          进入
         </div>
       </div>
       <div className="flex items-center justify-between px-4 py-3 text-sm">
-        <span className="text-val-muted">{map.description}</span>
-        <span className="shrink-0 text-val-red">点位 →</span>
+        <span className="line-clamp-1 text-val-muted">{map.description}</span>
+        <span className="shrink-0 font-medium text-val-red transition group-hover:translate-x-0.5">
+          点位 →
+        </span>
       </div>
     </Link>
   );

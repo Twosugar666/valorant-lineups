@@ -14,7 +14,7 @@
   <line x1="420" y1="220" x2="540" y2="220" stroke="#30c78a" stroke-width="2"/>
   <circle cx="480" cy="220" r="36" fill="none" stroke="#30c78a" stroke-width="2" opacity="0.7"/>
   <text x="480" y="360" text-anchor="middle" fill="#30c78a" font-family="system-ui,sans-serif" font-size="34" font-weight="700">准星</text>
-  <text x="480" y="400" text-anchor="middle" fill="#8b9bb4" font-family="system-ui,sans-serif" font-size="16">A 点毒幕推进</text>
-  <text x="480" y="432" text-anchor="middle" fill="#5a6a80" font-family="system-ui,sans-serif" font-size="13">日落之城 · 蝰蛇 · 进攻 · 示意原图</text>
-  <text x="480" y="462" text-anchor="middle" fill="#3d4a5c" font-family="system-ui,sans-serif" font-size="12">可替换为实机截图 · 非游戏截图搬运</text>
+  <text x="480" y="400" text-anchor="middle" fill="#b0bdd0" font-family="system-ui,sans-serif" font-size="16">A 点毒幕推进</text>
+  <text x="480" y="432" text-anchor="middle" fill="#9aa8bc" font-family="system-ui,sans-serif" font-size="13">日落之城 · 蝰蛇 · 进攻 · 示意原图</text>
+  <text x="480" y="462" text-anchor="middle" fill="#7a8799" font-family="system-ui,sans-serif" font-size="12">可替换为实机截图 · 非游戏截图搬运</text>
 </svg>

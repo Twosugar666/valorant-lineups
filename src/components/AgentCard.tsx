@@ -1,28 +1,34 @@
-import Image from "next/image";
 import Link from "next/link";
 import type { AgentInfo } from "@/types";
+import { SmartImage } from "./SmartImage";
 
 export function AgentCard({ agent }: { agent: AgentInfo }) {
   return (
     <Link
       href={`/agents/${agent.id}`}
-      className="card-hover clip-corner flex flex-col overflow-hidden border border-val-border bg-val-card"
+      className="card-hover glass-card group relative flex flex-col overflow-hidden"
       style={{ borderTopColor: agent.color, borderTopWidth: 3 }}
     >
-      <div className="relative mx-auto mt-4 h-28 w-28">
-        <Image
+      <div
+        className="pointer-events-none absolute inset-0 opacity-0 transition duration-300 group-hover:opacity-100"
+        style={{
+          background: `radial-gradient(circle at 50% 20%, ${agent.color}22, transparent 60%)`,
+        }}
+      />
+      <div className="relative mx-auto mt-5 h-28 w-28">
+        <SmartImage
           src={agent.image}
           alt={agent.name}
           fill
-          className="object-contain"
+          className="object-contain drop-shadow-[0_0_12px_rgba(255,70,85,0.15)] transition duration-300 group-hover:scale-105"
           sizes="112px"
         />
       </div>
-      <div className="p-4 text-center">
-        <h3 className="font-bold" style={{ color: agent.color }}>
+      <div className="relative p-4 text-center">
+        <h3 className="font-bold tracking-wide" style={{ color: agent.color }}>
           {agent.name}
         </h3>
-        <p className="text-sm text-val-muted">
+        <p className="mt-0.5 text-xs text-val-muted">
           {agent.nameEn} · {agent.role}
         </p>
       </div>

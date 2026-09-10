@@ -1,7 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
-  <rect width="400" height="400" fill="#0f1923"/>
-  <circle cx="200" cy="160" r="70" fill="none" stroke="#84cc16" stroke-width="4"/>
-  <circle cx="200" cy="160" r="40" fill="#84cc16" opacity="0.3"/>
-  <text x="200" y="280" text-anchor="middle" fill="#84cc16" font-family="system-ui,sans-serif" font-size="32" font-weight="700">壁虎</text>
-  <text x="200" y="320" text-anchor="middle" fill="#8b9bb4" font-family="system-ui,sans-serif" font-size="16">Gekko · 先锋</text>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a1118"/>
+      <stop offset="100%" stop-color="#141e2a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="rgba(132,204,22,0.28)"/>
+      <stop offset="100%" stop-color="rgba(132,204,22,0)"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg)"/>
+  <rect width="400" height="400" fill="url(#glow)"/>
+  <rect x="18" y="18" width="364" height="364" fill="none" stroke="rgba(132,204,22,0.35)" stroke-width="1.5"/>
+  <polygon points="382,18 382,48 352,18" fill="#84cc16" opacity="0.85"/>
+  
+    <circle cx="200" cy="160" r="55" fill="none" stroke="#84cc16" stroke-width="3"/>
+    <circle cx="175" cy="150" r="10" fill="#84cc16"/>
+    <circle cx="225" cy="150" r="10" fill="#84cc16"/>
+    <path d="M170 185 Q200 205 230 185" fill="none" stroke="#84cc16" stroke-width="2.5"/>
+    <circle cx="200" cy="230" r="14" fill="#84cc16" opacity="0.4"/>
+  <text x="200" y="310" text-anchor="middle" fill="#84cc16" font-family="system-ui,sans-serif" font-size="28" font-weight="700">壁虎</text>
+  <text x="200" y="340" text-anchor="middle" fill="#8b9bb4" font-family="system-ui,sans-serif" font-size="14">Gekko · 先锋</text>
 </svg>

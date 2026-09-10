@@ -1,9 +1,9 @@
 @import "tailwindcss";
 
 :root {
-  --val-bg: #0f1923;
-  --val-bg-elevated: #1a2332;
-  --val-bg-card: #15202b;
+  --val-bg: #0a1118;
+  --val-bg-elevated: #141e2a;
+  --val-bg-card: #101a24;
   --val-border: #2a3a4d;
   --val-red: #ff4655;
   --val-red-dim: #c83a47;
@@ -38,11 +38,15 @@ html {
 }
 
 body {
-  background: var(--val-bg);
+  background:
+    radial-gradient(ellipse 80% 50% at 50% -20%, rgba(255, 70, 85, 0.08), transparent),
+    radial-gradient(ellipse 60% 40% at 100% 0%, rgba(70, 255, 213, 0.04), transparent),
+    var(--val-bg);
   color: var(--val-text);
   font-family: var(--font-sans), "PingFang SC", "Microsoft YaHei", system-ui,
     sans-serif;
   min-height: 100vh;
+  letter-spacing: 0.01em;
 }
 
 ::selection {
@@ -56,16 +60,71 @@ a {
 }
 
 .card-hover {
-  transition: transform 0.15s ease, border-color 0.15s ease,
-    box-shadow 0.15s ease;
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
 .card-hover:hover {
-  transform: translateY(-2px);
-  border-color: var(--val-red);
-  box-shadow: 0 8px 24px rgba(255, 70, 85, 0.12);
+  transform: translateY(-3px);
+  border-color: color-mix(in srgb, var(--val-red) 70%, var(--val-border));
+  box-shadow:
+    0 0 0 1px rgba(255, 70, 85, 0.12),
+    0 12px 32px rgba(255, 70, 85, 0.14),
+    0 4px 12px rgba(0, 0, 0, 0.35);
+}
+
+.glass-card {
+  border: 1px solid color-mix(in srgb, var(--val-border) 90%, transparent);
+  background: color-mix(in srgb, var(--val-bg-card) 88%, transparent);
+  backdrop-filter: blur(10px);
+  clip-path: polygon(0 0, calc(100% - 14px) 0, 100% 14px, 100% 100%, 0 100%);
 }
 
 .clip-corner {
   clip-path: polygon(0 0, calc(100% - 12px) 0, 100% 12px, 100% 100%, 0 100%);
+}
+
+.clip-corner-sm {
+  clip-path: polygon(0 0, calc(100% - 6px) 0, 100% 6px, 100% 100%, 0 100%);
+}
+
+.hero-panel {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid color-mix(in srgb, var(--val-border) 80%, var(--val-red));
+  background:
+    linear-gradient(135deg, rgba(255, 70, 85, 0.08), transparent 45%),
+    linear-gradient(225deg, rgba(70, 255, 213, 0.05), transparent 40%),
+    color-mix(in srgb, var(--val-bg-card) 92%, transparent);
+  backdrop-filter: blur(12px);
+  clip-path: polygon(0 0, calc(100% - 28px) 0, 100% 28px, 100% 100%, 0 100%);
+}
+
+.section-title {
+  position: relative;
+  display: inline-block;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.section-title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 36px;
+  height: 2px;
+  background: var(--val-red);
+  box-shadow: 0 0 8px rgba(255, 70, 85, 0.6);
+}
+
+.stat-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  border: 1px solid var(--val-border);
+  background: rgba(15, 25, 35, 0.55);
+  padding: 0.35rem 0.75rem;
+  font-size: 0.75rem;
+  color: var(--val-muted);
+  backdrop-filter: blur(6px);
 }

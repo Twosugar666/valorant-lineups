@@ -1,7 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
-  <rect width="400" height="400" fill="#0f1923"/>
-  <circle cx="200" cy="160" r="70" fill="none" stroke="#fbbf24" stroke-width="4"/>
-  <circle cx="200" cy="160" r="40" fill="#fbbf24" opacity="0.3"/>
-  <text x="200" y="280" text-anchor="middle" fill="#fbbf24" font-family="system-ui,sans-serif" font-size="32" font-weight="700">尚勃尔</text>
-  <text x="200" y="320" text-anchor="middle" fill="#8b9bb4" font-family="system-ui,sans-serif" font-size="16">Chamber · 哨兵</text>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a1118"/>
+      <stop offset="100%" stop-color="#141e2a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="rgba(251,191,36,0.28)"/>
+      <stop offset="100%" stop-color="rgba(251,191,36,0)"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg)"/>
+  <rect width="400" height="400" fill="url(#glow)"/>
+  <rect x="18" y="18" width="364" height="364" fill="none" stroke="rgba(251,191,36,0.35)" stroke-width="1.5"/>
+  <polygon points="382,18 382,48 352,18" fill="#fbbf24" opacity="0.85"/>
+  
+    <path d="M160 100 L240 100 L260 160 L200 240 L140 160 Z" fill="none" stroke="#fbbf24" stroke-width="3"/>
+    <circle cx="200" cy="155" r="18" fill="#fbbf24" opacity="0.35"/>
+    <line x1="200" y1="120" x2="200" y2="190" stroke="#fbbf24" stroke-width="2"/>
+  <text x="200" y="310" text-anchor="middle" fill="#fbbf24" font-family="system-ui,sans-serif" font-size="28" font-weight="700">尚勃尔</text>
+  <text x="200" y="340" text-anchor="middle" fill="#8b9bb4" font-family="system-ui,sans-serif" font-size="14">Chamber · 哨兵</text>
 </svg>

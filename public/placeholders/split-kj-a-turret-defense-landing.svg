@@ -10,6 +10,6 @@
   <circle cx="480" cy="240" r="48" fill="none" stroke="#f0d84a" stroke-width="3" opacity="0.8"/>
   <circle cx="480" cy="240" r="8" fill="#f0d84a"/>
   <text x="480" y="340" text-anchor="middle" fill="#f0d84a" font-family="system-ui,sans-serif" font-size="36" font-weight="700">落点</text>
-  <text x="480" y="390" text-anchor="middle" fill="#8b9bb4" font-family="system-ui,sans-serif" font-size="18">A 天堂炮台</text>
-  <text x="480" y="430" text-anchor="middle" fill="#5a6a80" font-family="system-ui,sans-serif" font-size="14">占位图 · 请替换为实机截图</text>
+  <text x="480" y="390" text-anchor="middle" fill="#b0bdd0" font-family="system-ui,sans-serif" font-size="18">A 天堂炮台</text>
+  <text x="480" y="430" text-anchor="middle" fill="#9aa8bc" font-family="system-ui,sans-serif" font-size="14">占位图 · 请替换为实机截图</text>
 </svg>

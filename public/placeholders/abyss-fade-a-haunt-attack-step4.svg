@@ -14,7 +14,7 @@
   <circle cx="480" cy="230" r="28" fill="#8b5cf6" opacity="0.25"/>
   <text x="480" y="238" text-anchor="middle" fill="#8b5cf6" font-family="system-ui,sans-serif" font-size="22" font-weight="700">步骤4</text>
   <text x="480" y="360" text-anchor="middle" fill="#8b5cf6" font-family="system-ui,sans-serif" font-size="34" font-weight="700">步骤4</text>
-  <text x="480" y="400" text-anchor="middle" fill="#8b9bb4" font-family="system-ui,sans-serif" font-size="16">A 点萦绕开局</text>
-  <text x="480" y="432" text-anchor="middle" fill="#5a6a80" font-family="system-ui,sans-serif" font-size="13">幽邃地窟 · 菲朵 · 进攻 · 示意原图</text>
-  <text x="480" y="462" text-anchor="middle" fill="#3d4a5c" font-family="system-ui,sans-serif" font-size="12">可替换为实机截图 · 非游戏截图搬运</text>
+  <text x="480" y="400" text-anchor="middle" fill="#b0bdd0" font-family="system-ui,sans-serif" font-size="16">A 点萦绕开局</text>
+  <text x="480" y="432" text-anchor="middle" fill="#9aa8bc" font-family="system-ui,sans-serif" font-size="13">幽邃地窟 · 菲朵 · 进攻 · 示意原图</text>
+  <text x="480" y="462" text-anchor="middle" fill="#7a8799" font-family="system-ui,sans-serif" font-size="12">可替换为实机截图 · 非游戏截图搬运</text>
 </svg>

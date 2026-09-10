@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import {
@@ -10,6 +9,7 @@ import {
   sideLabel,
 } from "@/lib/data";
 import { SpotCard } from "@/components/SpotCard";
+import { SmartImage } from "@/components/SmartImage";
 
 type Props = { params: Promise<{ mapId: string }> };
 
@@ -33,12 +33,12 @@ export default async function MapDetailPage({ params }: Props) {
 
   return (
     <div className="space-y-8">
-      <div className="flex flex-col gap-6 md:flex-row">
-        <div className="relative aspect-video w-full overflow-hidden border border-val-border md:w-80">
-          <Image src={map.image} alt={map.name} fill className="object-cover" />
+      <div className="glass-card flex flex-col gap-6 p-5 md:flex-row md:p-6">
+        <div className="relative aspect-video w-full overflow-hidden border border-val-border md:w-96">
+          <SmartImage src={map.image} alt={map.name} fill className="object-cover" />
         </div>
-        <div>
-          <p className="text-sm text-val-muted">{map.nameEn}</p>
+        <div className="flex flex-col justify-center">
+          <p className="text-sm tracking-wide text-val-muted">{map.nameEn}</p>
           <h1 className="text-3xl font-bold">{map.name}</h1>
           <p className="mt-2 text-val-muted">{map.description}</p>
           <p className="mt-2 text-sm text-val-muted">
@@ -47,13 +47,13 @@ export default async function MapDetailPage({ params }: Props) {
           <div className="mt-5 flex flex-wrap gap-3">
             <Link
               href={`/maps/${mapId}/attack`}
-              className="clip-corner bg-val-red px-5 py-2 text-sm font-semibold text-white"
+              className="clip-corner bg-val-red px-5 py-2 text-sm font-semibold text-white shadow-lg shadow-val-red/20"
             >
               {sideLabel.attack}点位
             </Link>
             <Link
               href={`/maps/${mapId}/defense`}
-              className="clip-corner border border-val-border px-5 py-2 text-sm font-semibold"
+              className="clip-corner border border-val-border px-5 py-2 text-sm font-semibold transition hover:border-val-cyan"
             >
               {sideLabel.defense}点位
             </Link>
@@ -62,7 +62,7 @@ export default async function MapDetailPage({ params }: Props) {
       </div>
 
       <section>
-        <h2 className="mb-4 text-lg font-bold">按特工筛选</h2>
+        <h2 className="section-title mb-5 text-lg">按特工筛选</h2>
         <div className="flex flex-wrap gap-2">
           {agentIds.map((id) => {
             const agent = agents.find((a) => a.id === id);
@@ -71,7 +71,7 @@ export default async function MapDetailPage({ params }: Props) {
               <Link
                 key={id}
                 href={`/maps/${mapId}/attack/${id}`}
-                className="rounded border border-val-border px-3 py-1.5 text-sm hover:border-val-red"
+                className="rounded-sm border border-val-border bg-val-card/60 px-3 py-1.5 text-sm transition hover:border-val-red hover:shadow-[0_0_12px_rgba(255,70,85,0.15)]"
                 style={{ color: agent.color }}
               >
                 {agent.name}
@@ -82,7 +82,7 @@ export default async function MapDetailPage({ params }: Props) {
       </section>
 
       <section>
-        <h2 className="mb-4 text-lg font-bold">本图全部点位</h2>
+        <h2 className="section-title mb-5 text-lg">本图全部点位</h2>
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {mapSpots.map((spot) => (
             <SpotCard key={spot.id} spot={spot} />

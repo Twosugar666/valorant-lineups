@@ -8,48 +8,70 @@ export default function HomePage() {
   const featured = getFeaturedSpots();
 
   return (
-    <div className="space-y-14">
-      <section className="relative overflow-hidden border border-val-border bg-val-card p-8 md:p-12">
-        <div className="absolute -right-8 -top-8 h-40 w-40 rotate-12 bg-val-red/20" />
-        <p className="mb-2 text-sm font-medium tracking-widest text-val-red">
+    <div className="space-y-16">
+      <section className="hero-panel p-8 md:p-14">
+        <div className="pointer-events-none absolute -right-10 -top-10 h-56 w-56 rotate-12 bg-val-red/15 blur-2xl" />
+        <div className="pointer-events-none absolute bottom-0 right-8 h-32 w-32 rounded-full bg-val-cyan/10 blur-3xl" />
+        <div className="pointer-events-none absolute right-10 top-10 hidden h-24 w-24 border border-val-red/30 md:block" />
+        <div className="pointer-events-none absolute right-16 top-16 hidden h-24 w-24 border border-val-border/60 md:block" />
+
+        <p className="mb-3 text-xs font-semibold tracking-[0.28em] text-val-red">
           VALORANT LINEUPS
         </p>
-        <h1 className="max-w-xl text-3xl font-bold leading-tight md:text-4xl">
-          瓦罗兰特道具点位指南
+        <h1 className="max-w-2xl text-3xl font-bold leading-tight md:text-5xl md:leading-[1.15]">
+          瓦罗兰特
+          <span className="text-val-red">道具点位</span>
+          指南
         </h1>
-        <p className="mt-4 max-w-2xl text-val-muted">
+        <p className="mt-5 max-w-2xl text-base leading-relaxed text-val-muted md:text-lg">
           按地图或特工浏览进攻 / 防守技能线。每条点位含站位、准星、落点图示与逐步说明，方便开黑前速查。
         </p>
-        <div className="mt-6 flex flex-wrap gap-3">
+        <div className="mt-8 flex flex-wrap gap-3">
           <Link
             href="/maps"
-            className="clip-corner bg-val-red px-5 py-2.5 text-sm font-semibold text-white hover:bg-val-red-dim"
+            className="clip-corner bg-val-red px-6 py-2.5 text-sm font-semibold text-white shadow-lg shadow-val-red/25 transition hover:bg-val-red-dim"
           >
             从地图开始
           </Link>
           <Link
             href="/agents"
-            className="clip-corner border border-val-border px-5 py-2.5 text-sm font-semibold hover:border-val-red"
+            className="clip-corner border border-val-border bg-val-bg/40 px-6 py-2.5 text-sm font-semibold backdrop-blur transition hover:border-val-red"
           >
             从特工开始
           </Link>
           <Link
             href="/search"
-            className="clip-corner border border-val-border px-5 py-2.5 text-sm font-semibold text-val-muted hover:border-val-cyan hover:text-val-cyan"
+            className="clip-corner border border-val-border px-6 py-2.5 text-sm font-semibold text-val-muted transition hover:border-val-cyan hover:text-val-cyan"
           >
             搜索点位
           </Link>
+          <Link
+            href="/ask"
+            className="clip-corner border border-val-cyan/30 px-6 py-2.5 text-sm font-semibold text-val-cyan transition hover:bg-val-cyan/10"
+          >
+            AI 问答
+          </Link>
         </div>
-        <p className="mt-6 text-sm text-val-muted">
-          已收录 {maps.length} 张地图 · {agents.length} 名特工 · {spots.length}{" "}
-          条点位
-        </p>
+        <div className="mt-8 flex flex-wrap gap-2">
+          <span className="stat-pill">
+            <span className="h-1.5 w-1.5 rounded-full bg-val-red" />
+            {maps.length} 张地图
+          </span>
+          <span className="stat-pill">
+            <span className="h-1.5 w-1.5 rounded-full bg-val-cyan" />
+            {agents.length} 名特工
+          </span>
+          <span className="stat-pill">
+            <span className="h-1.5 w-1.5 rounded-full bg-val-gold" />
+            {spots.length} 条点位
+          </span>
+        </div>
       </section>
 
       <section>
-        <div className="mb-5 flex items-end justify-between">
-          <h2 className="text-xl font-bold">精选点位</h2>
-          <Link href="/search" className="text-sm text-val-red hover:underline">
+        <div className="mb-6 flex items-end justify-between">
+          <h2 className="section-title text-xl">精选点位</h2>
+          <Link href="/search" className="text-sm text-val-red transition hover:underline">
             查看全部
           </Link>
         </div>
@@ -61,9 +83,9 @@ export default function HomePage() {
       </section>
 
       <section>
-        <div className="mb-5 flex items-end justify-between">
-          <h2 className="text-xl font-bold">地图</h2>
-          <Link href="/maps" className="text-sm text-val-red hover:underline">
+        <div className="mb-6 flex items-end justify-between">
+          <h2 className="section-title text-xl">地图</h2>
+          <Link href="/maps" className="text-sm text-val-red transition hover:underline">
             全部地图
           </Link>
         </div>
@@ -75,9 +97,9 @@ export default function HomePage() {
       </section>
 
       <section>
-        <div className="mb-5 flex items-end justify-between">
-          <h2 className="text-xl font-bold">特工</h2>
-          <Link href="/agents" className="text-sm text-val-red hover:underline">
+        <div className="mb-6 flex items-end justify-between">
+          <h2 className="section-title text-xl">特工</h2>
+          <Link href="/agents" className="text-sm text-val-red transition hover:underline">
             全部特工
           </Link>
         </div>

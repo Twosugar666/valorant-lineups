@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import {
@@ -10,6 +9,7 @@ import {
   abilityTypeLabel,
 } from "@/lib/data";
 import { SpotCard } from "@/components/SpotCard";
+import { SmartImage } from "@/components/SmartImage";
 
 type Props = { params: Promise<{ agentId: string }> };
 
@@ -33,12 +33,18 @@ export default async function AgentDetailPage({ params }: Props) {
 
   return (
     <div className="space-y-8">
-      <div className="flex flex-col items-start gap-6 sm:flex-row">
+      <div className="glass-card flex flex-col items-start gap-6 p-6 sm:flex-row">
         <div
-          className="relative h-36 w-36 shrink-0 border border-val-border"
+          className="relative h-40 w-40 shrink-0 overflow-hidden border border-val-border bg-val-elevated/50"
           style={{ borderTopColor: agent.color, borderTopWidth: 3 }}
         >
-          <Image
+          <div
+            className="pointer-events-none absolute inset-0 opacity-40"
+            style={{
+              background: `radial-gradient(circle at 50% 40%, ${agent.color}33, transparent 65%)`,
+            }}
+          />
+          <SmartImage
             src={agent.image}
             alt={agent.name}
             fill
@@ -52,11 +58,11 @@ export default async function AgentDetailPage({ params }: Props) {
           <h1 className="text-3xl font-bold" style={{ color: agent.color }}>
             {agent.name}
           </h1>
-          <div className="mt-3 flex flex-wrap gap-2">
+          <div className="mt-4 flex flex-wrap gap-2">
             {agent.abilities.map((ab) => (
               <span
                 key={ab.id}
-                className="rounded border border-val-border px-2 py-1 text-xs text-val-muted"
+                className="rounded-sm border border-val-border bg-val-bg/40 px-2.5 py-1 text-xs text-val-muted"
               >
                 {ab.name}
                 <span className="ml-1 text-val-border">·</span>
@@ -64,14 +70,14 @@ export default async function AgentDetailPage({ params }: Props) {
               </span>
             ))}
           </div>
-          <p className="mt-3 text-sm text-val-muted">
+          <p className="mt-4 text-sm text-val-muted">
             共 {agentSpots.length} 条点位
           </p>
         </div>
       </div>
 
       <section>
-        <h2 className="mb-4 text-lg font-bold">选择地图</h2>
+        <h2 className="section-title mb-5 text-lg">选择地图</h2>
         <div className="grid gap-3 sm:grid-cols-2 md:grid-cols-4">
           {mapIds.map((id) => {
             const map = maps.find((m) => m.id === id);
@@ -81,7 +87,7 @@ export default async function AgentDetailPage({ params }: Props) {
               <Link
                 key={id}
                 href={`/agents/${agentId}/${id}`}
-                className="card-hover clip-corner border border-val-border bg-val-card p-4"
+                className="card-hover glass-card p-4"
               >
                 <p className="font-semibold">{map.name}</p>
                 <p className="text-sm text-val-muted">
@@ -94,7 +100,7 @@ export default async function AgentDetailPage({ params }: Props) {
       </section>
 
       <section>
-        <h2 className="mb-4 text-lg font-bold">全部点位</h2>
+        <h2 className="section-title mb-5 text-lg">全部点位</h2>
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {agentSpots.map((spot) => (
             <SpotCard key={spot.id} spot={spot} />

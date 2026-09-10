@@ -6,10 +6,10 @@ export const metadata: Metadata = { title: "特工" };
 
 export default function AgentsPage() {
   return (
-    <div className="space-y-6">
+    <div className="space-y-8">
       <div>
-        <h1 className="text-2xl font-bold">特工</h1>
-        <p className="mt-1 text-val-muted">
+        <h1 className="section-title text-2xl">特工</h1>
+        <p className="mt-4 text-val-muted">
           选择特工 → 地图 → 查看该特工在该图的道具点位
         </p>
       </div>

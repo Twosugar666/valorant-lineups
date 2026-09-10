@@ -1,7 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
-  <rect width="400" height="400" fill="#0f1923"/>
-  <circle cx="200" cy="160" r="70" fill="none" stroke="#a855f7" stroke-width="4"/>
-  <circle cx="200" cy="160" r="40" fill="#a855f7" opacity="0.3"/>
-  <text x="200" y="280" text-anchor="middle" fill="#a855f7" font-family="system-ui,sans-serif" font-size="32" font-weight="700">星璇</text>
-  <text x="200" y="320" text-anchor="middle" fill="#8b9bb4" font-family="system-ui,sans-serif" font-size="16">Astra · 控场</text>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a1118"/>
+      <stop offset="100%" stop-color="#141e2a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="rgba(168,85,247,0.28)"/>
+      <stop offset="100%" stop-color="rgba(168,85,247,0)"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg)"/>
+  <rect width="400" height="400" fill="url(#glow)"/>
+  <rect x="18" y="18" width="364" height="364" fill="none" stroke="rgba(168,85,247,0.35)" stroke-width="1.5"/>
+  <polygon points="382,18 382,48 352,18" fill="#a855f7" opacity="0.85"/>
+  
+    <circle cx="200" cy="165" r="8" fill="#a855f7"/>
+    <circle cx="200" cy="165" r="35" fill="none" stroke="#a855f7" stroke-width="2" opacity="0.8"/>
+    <circle cx="200" cy="165" r="60" fill="none" stroke="#a855f7" stroke-width="1.5" opacity="0.5"/>
+    <circle cx="140" cy="130" r="5" fill="#a855f7"/><circle cx="260" cy="130" r="5" fill="#a855f7"/>
+    <circle cx="150" cy="210" r="5" fill="#a855f7"/><circle cx="250" cy="210" r="5" fill="#a855f7"/>
+  <text x="200" y="310" text-anchor="middle" fill="#a855f7" font-family="system-ui,sans-serif" font-size="28" font-weight="700">星璇</text>
+  <text x="200" y="340" text-anchor="middle" fill="#8b9bb4" font-family="system-ui,sans-serif" font-size="14">Astra · 控场</text>
 </svg>

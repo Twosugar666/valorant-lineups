@@ -38,8 +38,8 @@ export default async function SpotDetailPage({ params }: Props) {
   const hasStepImages = spot.steps.some((s) => s.image);
 
   return (
-    <article className="space-y-8">
-      <header className="space-y-3">
+    <article className="space-y-10">
+      <header className="glass-card space-y-4 p-6 md:p-8">
         <p className="text-sm text-val-muted">
           <Link href={`/maps/${spot.mapId}`} className="hover:text-val-red">
             {map?.name}
@@ -55,16 +55,16 @@ export default async function SpotDetailPage({ params }: Props) {
           {" · "}
           {sideLabel[spot.side]}
         </p>
-        <h1 className="text-3xl font-bold">{spot.title}</h1>
-        <p className="max-w-2xl text-val-muted">{spot.description}</p>
+        <h1 className="text-3xl font-bold md:text-4xl">{spot.title}</h1>
+        <p className="max-w-2xl leading-relaxed text-val-muted">{spot.description}</p>
         <div className="flex flex-wrap items-center gap-2 pt-1">
-          <span className="rounded bg-val-red/15 px-2 py-0.5 text-xs text-val-red">
+          <span className="rounded-sm bg-val-red/90 px-2.5 py-0.5 text-xs font-semibold text-white shadow shadow-val-red/20">
             {sideLabel[spot.side]}
           </span>
-          <span className="rounded border border-val-border px-2 py-0.5 text-xs">
+          <span className="rounded-sm border border-val-border bg-val-elevated/60 px-2.5 py-0.5 text-xs">
             {spot.site} 点
           </span>
-          <span className="rounded border border-val-border px-2 py-0.5 text-xs">
+          <span className="rounded-sm border border-val-border bg-val-elevated/60 px-2.5 py-0.5 text-xs">
             {ability} · {abilityTypeLabel[spot.abilityType]}
           </span>
           <DifficultyBadge level={spot.difficulty} />
@@ -75,33 +75,33 @@ export default async function SpotDetailPage({ params }: Props) {
       </header>
 
       <section>
-        <h2 className="mb-4 text-lg font-bold">图示 · 站位 / 准星 / 落点</h2>
+        <h2 className="section-title mb-5 text-lg">图示 · 站位 / 准星 / 落点</h2>
         <ImageGallery images={spot.images} />
-        <p className="mt-2 text-xs text-val-muted">
+        <p className="mt-3 text-xs text-val-muted">
           当前为示意原图（非游戏截图），可将实机截图按 README 说明替换到
           public/placeholders/
         </p>
       </section>
 
       <section>
-        <h2 className="mb-4 text-lg font-bold">
+        <h2 className="section-title mb-5 text-lg">
           操作步骤{hasStepImages ? "（每步配图）" : ""}
         </h2>
-        <div className="border border-val-border bg-val-card p-5">
+        <div className="glass-card p-5 md:p-7">
           <StepList steps={spot.steps} />
         </div>
       </section>
 
-      <div className="flex flex-wrap gap-3 text-sm">
+      <div className="flex flex-wrap gap-4 text-sm">
         <Link
           href={`/maps/${spot.mapId}/${spot.side}/${spot.agentId}`}
-          className="text-val-red hover:underline"
+          className="text-val-red transition hover:underline"
         >
           ← 同图同侧同特工更多点位
         </Link>
         <Link
           href={`/agents/${spot.agentId}/${spot.mapId}`}
-          className="text-val-muted hover:text-val-cyan"
+          className="text-val-muted transition hover:text-val-cyan"
         >
           该特工在本图全部点位
         </Link>
